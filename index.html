@@ -10,9 +10,12 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
 	<style>
-		body {background:url(https://c1.staticflickr.com/9/8009/7141836899_10aa089180_b.jpg) no-repeat 0 0;background-size:100% 100%;height:100vh;width;100vw;}
-		.card-inverse {background:#111;border:solid 1px silver;}
-		.card-group {position:relative;bottom:0;}
+		body {background:url(https://c1.staticflickr.com/9/8009/7141836899_10aa089180_b.jpg) no-repeat 0 0;background-size:100% 100%;min-height:100vh;width;100vw;display:flex;flex-direction:column;justify-content:space-between;}
+		footer {text-align:center;}
+		footer a {color:#aaa;}
+		.card-inverse {background:rgba(17,17,17,.8);border:solid 1px silver;}
+		.card {margin-bottom:1em;}
+		.jumbotron {rgba(236, 238, 239,.8);}
 	</style>
 </head>
 <body>
@@ -23,48 +26,55 @@
 	</div>
 </div>
 
-<div class="card-deck">
-	<div class="card text-center card-inverse">
-		<img class="card-img-top" src="http://static.lulu.com/browse/product_thumbnail.php?productId=10263463&resolution=320" alt="Card image cap">
-		<div class="card-block">
-			<h2 class="card-title">Démangeaisons</h2>
-			<p class="card-text">Quelques poèmes</p>
-			<a href="#" class="btn btn-primary">Lire</a>
+<div id="container" class="container-fluid">
+	<div class="card-deck">
+		<div class="card text-center card-inverse">
+			<img class="card-img-top" src="http://static.lulu.com/browse/product_thumbnail.php?productId=10263463&resolution=320" alt="Couverture du livre 'Démangeaisons'" style="max-width:213px;maw-height:320px;margin:auto;">
+			<div class="card-block">
+				<h2 class="card-title">Démangeaisons</h2>
+				<p class="card-text">Quelques poèmes</p>
+				<a href="#" class="btn btn-primary">Lire</a>
+			</div>
+		</div>
+		<div class="card text-center card-inverse">
+			<img class="card-img-top" src="..." alt="Card image cap">
+			<div class="card-block">
+				<h2 class="card-title">Exils Oniriques</h2>
+				<p class="card-text">Quelques nouvelles</p>
+				<a href="#" class="btn btn-primary">Lire</a>
+			</div>
 		</div>
 	</div>
-	<div class="card text-center card-inverse">
-		<img class="card-img-top" src="..." alt="Card image cap">
-		<div class="card-block">
-			<h2 class="card-title">Exils Oniriques</h2>
-			<p class="card-text">Quelques nouvelles</p>
-			<a href="#" class="btn btn-primary">Lire</a>
+	<div class="card-deck">
+		<div class="card text-center card-inverse">
+			<img class="card-img-top" src="..." alt="Card image cap">
+			<div class="card-block">
+				<h2 class="card-title">Réflexions</h2>
+				<p class="card-text">De quoi penser...</p>
+				<a href="#" class="btn btn-primary">Lire</a>
+			</div>
+		</div>
+		<div class="card text-center card-inverse">
+			<img class="card-img-top" src="..." alt="Card image cap">
+			<div class="card-block">
+				<h2 class="card-title">Textes Courts</h2>
+				<p class="card-text">Faux haïkus et tweets</p>
+				<a href="#" class="btn btn-primary">Lire</a>
+			</div>
+		</div>
+		<div class="card text-center card-inverse">
+			<img class="card-img-top" src="..." alt="Card image cap">
+			<div class="card-block">
+				<h2 class="card-title">Mon Zim</h2>
+				<p class="card-text">Un genre de Wiki personnel chaotique</p>
+				<a href="#" class="btn btn-primary">Lire</a>
+			</div>
 		</div>
 	</div>
-</div><div class="card-deck">
-	<div class="card text-center card-inverse">
-		<img class="card-img-top" src="..." alt="Card image cap">
-		<div class="card-block">
-			<h2 class="card-title">Réflexions</h2>
-			<p class="card-text">De quoi penser...</p>
-			<a href="#" class="btn btn-primary">Lire</a>
-		</div>
-	</div>
-	<div class="card text-center card-inverse">
-		<img class="card-img-top" src="..." alt="Card image cap">
-		<div class="card-block">
-			<h2 class="card-title">Textes Courts</h2>
-			<p class="card-text">Faux haïkus et tweets</p>
-			<a href="#" class="btn btn-primary">Lire</a>
-		</div>
-	</div>
-	<div class="card text-center card-inverse">
-		<img class="card-img-top" src="..." alt="Card image cap">
-		<div class="card-block">
-			<h2 class="card-title">Mon Zim</h2>
-			<p class="card-text">Un genre de Wiki personnel chaotique</p>
-			<a href="#" class="btn btn-primary">Lire</a>
-		</div>
-	</div>
+	<footer>
+		<hr>
+		<a href="#">A propos</a> - <a href="#">Mentions légales</a>
+	</footer>
 </div>
 </body>
 </html>
