@@ -10,12 +10,20 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
 	<style>
-		body {background:url(https://c1.staticflickr.com/9/8009/7141836899_10aa089180_b.jpg) no-repeat 0 0;background-size:100% 100%;min-height:100vh;width;100vw;display:flex;flex-direction:column;justify-content:space-between;}
+		body {background:url(https://c1.staticflickr.com/9/8009/7141836899_10aa089180_b.jpg) repeat-y 0 0 fixed;background-size:100%;min-height:100vh;width;100vw;display:flex;flex-direction:column;justify-content:space-between;}
 		footer {display:flex;justify-content:space-around;}
+		img {max-width:100%;filter: sepia(100%) saturate(202%) hue-rotate(180deg) blur(2px);opacity: 0.5;}
 		footer a {color:#aaa;display:block;}
 		.card-inverse {background:rgba(17,17,17,.8);border:solid 1px silver;}
 		.card {margin-bottom:1em;border-radius:.75rem;border-color:rgb(251,235,102);-webkit-box-shadow:0px 0px 5px 3px rgba(251,235,102,.8);-moz-box-shadow:0px 0px 5px 3px rgba(251,235,102,.8);box-shadow:0px 0px 5px 3px rgba(251,235,102,.8);}
-		.jumbotron {background:rgba(251,235,102,.8);color:rgb(5, 6, 108);}
+		.card:hover {-webkit-box-shadow:0px 0px 8px 5px rgba(251,235,102,.95);-moz-box-shadow:0px 0px 8px 5px rgba(251,235,102,.95);box-shadow:0px 0px 8px 5px rgba(251,235,102,.95);}
+		.card:hover img {filter: none;opacity: 1;transition: .2s filter linear;}
+		.jumbotron {background:transparent;color:rgb(251,235,10);text-shadow: -3px -4px 5px rgba(251,235,102,.8),3px 4px 5px rgba(251,235,102,.8),-3px 4px 5px rgba(251,235,102,.8),-3px -4px 5px rgba(251,235,102,.8);}
+		.jumbotron .container {/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#05066c+0,05066c+100&0+0,0.8+80,0.8+100 */
+background: -moz-linear-gradient(top, rgba(5,6,108,0) 0%, rgba(5,6,108,0.8) 80%, rgba(5,6,108,0.8) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, rgba(5,6,108,0) 0%,rgba(5,6,108,0.8) 80%,rgba(5,6,108,0.8) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, rgba(5,6,108,0) 0%,rgba(5,6,108,0.8) 80%,rgba(5,6,108,0.8) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0005066c', endColorstr='#cc05066c',GradientType=0 ); }
 		h1 small {font-weight:inherit;}
 	</style>
 </head>
@@ -27,66 +35,72 @@
 	</div>
 </div>
 
-<div id="container" class="container-fluid">
+<div id="container" class="container">
 	<div class="card-deck">
 		<div class="card text-center card-inverse">
-			<img class="card-img-top" src="http://static.lulu.com/browse/product_thumbnail.php?productId=10263463&resolution=320" alt="Couverture du livre 'Démangeaisons'" style="max-width:213px;maw-height:320px;margin:auto;">
-			<div class="card-block">
-				<h2 class="card-title">Démangeaisons</h2>
-				<p class="card-text">Un petit cadeau<br>fait d'un peu<br>de vanité</p>
-				<a href="#" class="btn btn-primary">Lire</a>
-			</div>
+			<a href="#" title="Lire">
+				<img class="card-img-top" src="http://www.publicdomainpictures.net/pictures/30000/velka/green-leaf-in-the-rain.jpg" alt="Feuille verte dans la pluie">
+				<!-- http://www.publicdomainpictures.net/view-image.php?image=23189 -->
+				<div class="card-block">
+					<h2 class="card-title">Démangeaisons</h2>
+					<p class="card-text">Un petit cadeau<br>fait d'un peu<br>de vanité</p>
+				</div>
+			</a>
 		</div>
 		<div class="card text-center card-inverse">
-			<img class="card-img-top" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Ponton_tourbi%C3%A8re.JPG/640px-Ponton_tourbi%C3%A8re.JPG" style="filter: grayscale(100%);" alt="Card image cap">
-			<div class="card-block">
-				<h2 class="card-title">Exils Oniriques</h2>
-				<p class="card-text">Quelques nouvelles</p>
-				<a href="#" class="btn btn-primary">Lire</a>
-			</div>
+			<a href="#" title="Lire">
+				<img class="card-img-top" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Waiting_out_the_rain_under_a_tree_%285217038792%29.jpg/320px-Waiting_out_the_rain_under_a_tree_%285217038792%29.jpg" width="100%" alt="Card image cap">
+				<!-- https://commons.wikimedia.org/wiki/File:Waiting_out_the_rain_under_a_tree_(5217038792).jpg -->
+				<div class="card-block">
+					<h2 class="card-title">Exils Oniriques</h2>
+					<p class="card-text">Quelques nouvelles</p>
+				</div>
+			</a>
 		</div>
 	</div>
 	<div class="card-deck">
 		<div class="card text-center card-inverse">
-			<img class="card-img-top" src="https://upload.wikimedia.org/wikipedia/commons/0/02/Bicycle_reflections.jpg" width="270px" alt="Card image cap">
-			<div class="card-block">
-				<h2 class="card-title">Réflexions</h2>
-				<p class="card-text">De quoi penser...</p>
-				<a href="#" class="btn btn-primary">Lire</a>
-			</div>
+			<a href="#" title="Lire">
+				<img class="card-img-top" src="https://upload.wikimedia.org/wikipedia/commons/0/02/Bicycle_reflections.jpg" width="100%"  alt="Card image cap">
+				<!-- https://commons.wikimedia.org/wiki/File:Bicycle_reflections.jpg -->
+				<div class="card-block">
+					<h2 class="card-title">Réflexions</h2>
+					<p class="card-text">De quoi penser...</p>
+				</div>
+			</a>
 		</div>
 		<div class="card text-center card-inverse">
-			<img class="card-img-top" src="..." alt="Card image cap">
-			<div class="card-block">
-				<h2 class="card-title">Textes Courts</h2>
-				<p class="card-text">Faux haïkus et tweets</p>
-				<a href="#" class="btn btn-primary">Lire</a>
-			</div>
+			<a href="#" title="Lire">
+				<img class="card-img-top" src="https://static.pexels.com/photos/3782/nature-rain-drop-of-water-blurred.jpg" alt="Card image cap">
+				<!-- https://www.pexels.com/photo/nature-rain-drop-of-water-blurred-3782/ -->
+				<div class="card-block">
+					<h2 class="card-title">Textes Courts</h2>
+					<p class="card-text">Faux haïkus et tweets</p>
+				</div>
+			</a>
 		</div>
 		<div class="card text-center card-inverse">
-			<img class="card-img-top" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Hieronymus_Bosch_058.jpg/251px-Hieronymus_Bosch_058.jpg" alt="Visions">
-			<div class="card-block">
-				<h2 class="card-title">Mon Enfer</h2>
-				<p class="card-text">Bla bla</p>
-				<a href="#" class="btn btn-primary">Lire</a>
-			</div>
+			<a href="#">
+				<img class="card-img-top" src="https://c1.staticflickr.com/6/5559/14959602630_47ce2dd56e_b.jpg" alt="Rue après la pluie">
+				<!-- https://www.flickr.com/photos/henk-sijgers/14959602630 -->
+				<div class="card-block">
+					<h2 class="card-title">Mon Enfer</h2>
+					<p class="card-text"><blockquote>&laquo;&nbsp;Le nom d'<em>Enfer</em>, employé ordinairement, sert en réalité à couvrir une marchandise peu curieuse en soi, le plus souvent idiotement obscène. Il vaut mieux prévenir de suite le public.&nbsp;&raquo;</blockquote></p>
+					<p>Henri Bouchot, <em></em></p>
+				</div>
+			</a>
 		</div>
+	</div>
+	<div class="card-deck">
 		<div class="card text-center card-inverse">
-			<img class="card-img-top" src="http://www.publicdomainpictures.net/pictures/30000/velka/stacked-paper-sheets.jpg" width="270px" alt="Card image cap">
-			<div class="card-block">
-				<h2 class="card-title">Mon Zim</h2>
-				<p class="card-text">Un genre de Wiki personnel chaotique</p>
-				<a href="#" class="btn btn-primary">Lire</a>
-			</div>
-		</div>
-		<div class="card text-center card-inverse">
-			<img class="card-img-top" src="..." alt="Card image cap">
-			<div class="card-block">
-				<h2 class="card-title">Mon Enfer</h2>
-				<p class="card-text"><blockquote>&laquo;&nbsp;Le nom d'<em>Enfer</em>, employé ordinairement, sert en réalité à couvrir une marchandise peu curieuse en soi, le plus souvent idiotement obscène. Il vaut mieux prévenir de suite le public.&nbsp;&raquo;</blockquote></p>
-				<p>Henri Bouchot, <em></em></p>
-				<a href="#" class="btn btn-primary">Lire</a>
-			</div>
+			<a href="#" title="Lire">
+				<img class="card-img-top" src="http://www.publicdomainpictures.net/pictures/70000/velka/walk-in-the-fog.jpg" width="100%" alt="Card image cap">
+				<!-- http://www.publicdomainpictures.net/view-image.php?image=65298&picture=marcher-dans-le-brouillard -->
+				<div class="card-block">
+					<h2 class="card-title">Mon Zim</h2>
+					<p class="card-text">Un genre de Wiki personnel chaotique</p>
+				</div>
+			</a>
 		</div>
 	</div>
 	<footer>
