@@ -14,22 +14,19 @@
 		footer {display:flex;justify-content:space-around;}
 		img {max-width:100%;filter: sepia(100%) saturate(202%) hue-rotate(180deg) blur(2px);opacity: 0.5;}
 		footer a {color:#aaa;display:block;}
-		.card-inverse {background:rgba(17,17,17,.8);border:solid 1px silver;}
+		.card-inverse,footer {background:rgba(17,17,17,.8);border:solid 1px silver;}
 		.card {margin-bottom:1em;border-radius:.75rem;border-color:rgb(251,235,102);-webkit-box-shadow:0px 0px 5px 3px rgba(251,235,102,.8);-moz-box-shadow:0px 0px 5px 3px rgba(251,235,102,.8);box-shadow:0px 0px 5px 3px rgba(251,235,102,.8);}
 		.card:hover {-webkit-box-shadow:0px 0px 8px 5px rgba(251,235,102,.95);-moz-box-shadow:0px 0px 8px 5px rgba(251,235,102,.95);box-shadow:0px 0px 8px 5px rgba(251,235,102,.95);}
 		.card:hover img {filter: none;opacity: 1;transition: .2s filter linear;}
-		.jumbotron {background:transparent;color:rgb(251,235,10);text-shadow: -3px -4px 5px rgba(251,235,102,.8),3px 4px 5px rgba(251,235,102,.8),-3px 4px 5px rgba(251,235,102,.8),-3px -4px 5px rgba(251,235,102,.8);}
-		.jumbotron .container {/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#05066c+0,05066c+100&0+0,0.8+80,0.8+100 */
-background: -moz-linear-gradient(top, rgba(5,6,108,0) 0%, rgba(5,6,108,0.8) 80%, rgba(5,6,108,0.8) 100%); /* FF3.6-15 */
-background: -webkit-linear-gradient(top, rgba(5,6,108,0) 0%,rgba(5,6,108,0.8) 80%,rgba(5,6,108,0.8) 100%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(to bottom, rgba(5,6,108,0) 0%,rgba(5,6,108,0.8) 80%,rgba(5,6,108,0.8) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0005066c', endColorstr='#cc05066c',GradientType=0 ); }
+		.jumbotron {background:transparent;}
+		.jumbotron .card, footer {border:none;box-shadow:none;-webkit-box-shadow:none;border-radius:0;}
+		.jumbotron .card p.lead {text-align:justify;}
 		h1 small {font-weight:inherit;}
 	</style>
 </head>
 <body>
 <div class="jumbotron jumbotron-fluid">
-	<div class="container">
+	<div class="container card text-center card-inverse">
 		<h1 class="display-2">Stéphane Mourey<small> - Site officiel</small></h1>
 		<p class="lead">Un auteur pour vous !</p>
 	</div>
@@ -39,7 +36,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0005066c', e
 	<div class="card-deck">
 		<div class="card text-center card-inverse">
 			<a href="#" title="Lire">
-				<img class="card-img-top" src="http://www.publicdomainpictures.net/pictures/30000/velka/green-leaf-in-the-rain.jpg" alt="Feuille verte dans la pluie">
+				<img class="card-img-top" src="img/green-leaf-in-the-rain.jpg" alt="Feuille verte dans la pluie">
 				<!-- http://www.publicdomainpictures.net/view-image.php?image=23189 -->
 				<div class="card-block">
 					<h2 class="card-title">Démangeaisons</h2>
@@ -49,7 +46,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0005066c', e
 		</div>
 		<div class="card text-center card-inverse">
 			<a href="#" title="Lire">
-				<img class="card-img-top" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Waiting_out_the_rain_under_a_tree_%285217038792%29.jpg/320px-Waiting_out_the_rain_under_a_tree_%285217038792%29.jpg" width="100%" alt="Card image cap">
+				<img class="card-img-top" src="img/Waiting_out_the_rain_under_a_tree.jpg" alt="Un escalier sous la pluie">
 				<!-- https://commons.wikimedia.org/wiki/File:Waiting_out_the_rain_under_a_tree_(5217038792).jpg -->
 				<div class="card-block">
 					<h2 class="card-title">Exils Oniriques</h2>
@@ -61,7 +58,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0005066c', e
 	<div class="card-deck">
 		<div class="card text-center card-inverse">
 			<a href="#" title="Lire">
-				<img class="card-img-top" src="https://upload.wikimedia.org/wikipedia/commons/0/02/Bicycle_reflections.jpg" width="100%"  alt="Card image cap">
+				<img class="card-img-top" src="img/Bicycle_reflections.jpg" width="100%"  alt="Reflet d'un cycliste dans une flaque">
 				<!-- https://commons.wikimedia.org/wiki/File:Bicycle_reflections.jpg -->
 				<div class="card-block">
 					<h2 class="card-title">Réflexions</h2>
@@ -71,7 +68,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0005066c', e
 		</div>
 		<div class="card text-center card-inverse">
 			<a href="#" title="Lire">
-				<img class="card-img-top" src="https://static.pexels.com/photos/3782/nature-rain-drop-of-water-blurred.jpg" alt="Card image cap">
+				<img class="card-img-top" src="img/nature-rain-drop-of-water-blurred.jpg" alt="Un brin d'herbe mouillé">
 				<!-- https://www.pexels.com/photo/nature-rain-drop-of-water-blurred-3782/ -->
 				<div class="card-block">
 					<h2 class="card-title">Textes Courts</h2>
@@ -81,7 +78,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0005066c', e
 		</div>
 		<div class="card text-center card-inverse">
 			<a href="#">
-				<img class="card-img-top" src="https://c1.staticflickr.com/6/5559/14959602630_47ce2dd56e_b.jpg" alt="Rue après la pluie">
+				<img class="card-img-top" src="img/14959602630_47ce2dd56e_b.jpg" alt="Rue après la pluie">
 				<!-- https://www.flickr.com/photos/henk-sijgers/14959602630 -->
 				<div class="card-block">
 					<h2 class="card-title">Mon Enfer</h2>
@@ -94,7 +91,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0005066c', e
 	<div class="card-deck">
 		<div class="card text-center card-inverse">
 			<a href="#" title="Lire">
-				<img class="card-img-top" src="http://www.publicdomainpictures.net/pictures/70000/velka/walk-in-the-fog.jpg" width="100%" alt="Card image cap">
+				<img class="card-img-top" src="img/walk-in-the-fog.jpg" alt="Un homme dans le brouillard">
 				<!-- http://www.publicdomainpictures.net/view-image.php?image=65298&picture=marcher-dans-le-brouillard -->
 				<div class="card-block">
 					<h2 class="card-title">Mon Zim</h2>
