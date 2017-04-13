@@ -1,0 +1,12 @@
+@font-face {
+  font-family: "gnutypewriter";
+  src: url("gtw-webfont.eot"); /* IE9 Compat Modes */
+  src: url("gtw-webfont.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("gtw-webfont.otf") format("opentype"), /* Open Type Font */
+    url("gtw-webfont.svg") format("svg"), /* Legacy iOS */
+    url("gtw-webfont.woff2") format("woff2"); /* Modern Browsers */
+    font-weight: normal;
+    font-style: normal;
+}
+
+

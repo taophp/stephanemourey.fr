@@ -6,23 +6,35 @@
 	<meta name="description" content="Le site officiel de Stéphane Mourey">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<link rel="stylesheet" href="res/bootstrap.min.css">
+	<link rel="stylesheet" href="res/webfonts/droidserif_regular_macroman/stylesheet.css">
+	<link rel="stylesheet" href="res/webfonts/gnutypewriter/stylesheet.css">
 	<script src="res/jquery-3.2.1.min.js"></script>
 	<script src="res/tether.min.js"></script>
 	<script src="res/bootstrap.min.js"></script>
 	<style>
-		body {background:url(img/7141836899_10aa089180_b.jpg) repeat-y 0 0 fixed;background-size:100%;min-height:100vh;width;100vw;display:flex;flex-direction:column;justify-content:space-between;}
+		body {background:url(img/7141836899_10aa089180_b.jpg) repeat-y 0 0 fixed;background-size:100%; min-height:100vh; width;100vw; display:flex; flex-direction:column; justify-content:space-between;}
 		/*background from https://www.flickr.com/photos/51018933@N08/7141836899 */
 		footer {display:flex;justify-content:space-around;}
+		blockquote{margin:0 1em 0 -.5em; text-align:left;}
+		h1.display-2 {font-family: 'gnutypewriter','serif';font-size:4.3rem;}
+		blockquote,.quote-src{font-family: 'DroidSerif', serif;}
+		.quote-src{float:right;text-align:right;}
 		img {max-width:100%;filter: sepia(100%) saturate(202%) hue-rotate(180deg) blur(2px);opacity: 0.5;}
 		footer a {color:#aaa;display:block;}
 		.card-inverse,footer {background:rgba(17,17,17,.8);border:solid 1px silver;}
 		.card {margin-bottom:1em;border-radius:.75rem;border-color:rgb(251,235,102);-webkit-box-shadow:0px 0px 5px 3px rgba(251,235,102,.8);-moz-box-shadow:0px 0px 5px 3px rgba(251,235,102,.8);box-shadow:0px 0px 5px 3px rgba(251,235,102,.8);}
 		.card:hover {-webkit-box-shadow:0px 0px 8px 5px rgba(251,235,102,.95);-moz-box-shadow:0px 0px 8px 5px rgba(251,235,102,.95);box-shadow:0px 0px 8px 5px rgba(251,235,102,.95);}
+		.card a{color:inherit;}
+		.card:hover {background:#000;}
+		.card:hover, .card:hover .card-text{color:#fff;}
+		.card:hover a{text-decoration:none;color:inherit;}
 		.card:hover img {filter: none;opacity: 1;transition: .2s filter linear;}
 		.jumbotron {background:transparent;}
-		.jumbotron .card, footer {border:none;box-shadow:none;-webkit-box-shadow:none;border-radius:0;}
+		.jumbotron .card, footer {border:none;box-shadow:none;-webkit-box-shadow:none;border-radius:0;color:#fff;}
 		.jumbotron .card p.lead {text-align:justify;}
-		h1 small {font-weight:inherit;}
+		h1 small {font-weight:inherit;color:grey;}
+		.card-text {text-align:justify;margin:0 .5em;}
+
 	</style>
 </head>
 <body>
@@ -41,7 +53,8 @@
 				<!-- http://www.publicdomainpictures.net/view-image.php?image=23189 -->
 				<div class="card-block">
 					<h2 class="card-title">Démangeaisons</h2>
-					<p class="card-text">Un petit cadeau<br>fait d'un peu<br>de vanité</p>
+					<p class="card-motto">Un petit cadeau<br>fait d'un peu<br>de vanité</p>
+					<p class="card-text">La poésie fait affleurer l'indicible. Bien souvent, cet indicible vient démanger l'esprit au c&oelig;ur de la nuit. La seule issue est alors de gratter quelques mots désordonnés sur le papier afin de retrouver le sommeil.</p>
 				</div>
 			</a>
 		</div>
@@ -51,7 +64,8 @@
 				<!-- https://commons.wikimedia.org/wiki/File:Waiting_out_the_rain_under_a_tree_(5217038792).jpg -->
 				<div class="card-block">
 					<h2 class="card-title">Exils Oniriques</h2>
-					<p class="card-text">Quelques nouvelles</p>
+					<blockquote>&laquo;&nbsp;Dans un monde unifié, on ne peut pas s'exiler.&nbsp;&raquo;</blockquote>
+					<p class="quote-src">Guy Debord, <em>Panégyrique, 1</em></p>
 				</div>
 			</a>
 		</div>
@@ -83,8 +97,8 @@
 				<!-- https://www.flickr.com/photos/henk-sijgers/14959602630 -->
 				<div class="card-block">
 					<h2 class="card-title">Mon Enfer</h2>
-					<p class="card-text"><blockquote>&laquo;&nbsp;Le nom d'<em>Enfer</em>, employé ordinairement, sert en réalité à couvrir une marchandise peu curieuse en soi, le plus souvent idiotement obscène. Il vaut mieux prévenir de suite le public.&nbsp;&raquo;</blockquote></p>
-					<p>Henri Bouchot, <em></em></p>
+					<blockquote>&laquo;&nbsp;Le nom d'<em>Enfer</em>, employé ordinairement, sert en réalité à couvrir une marchandise peu curieuse en soi, le plus souvent idiotement obscène. Il vaut mieux prévenir de suite le public.&nbsp;&raquo;</blockquote>
+					<p class="quote-src">Henri Bouchot, <em>Le Cabinet des estampes de la Bibliothèque nationale</em></p>
 				</div>
 			</a>
 		</div>
