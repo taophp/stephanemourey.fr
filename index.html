@@ -15,25 +15,30 @@
 		body {background:url(img/7141836899_10aa089180_b.jpg) repeat-y 0 0 fixed;background-size:100%; min-height:100vh; width;100vw; display:flex; flex-direction:column; justify-content:space-between;}
 		/*background from https://www.flickr.com/photos/51018933@N08/7141836899 */
 		footer {display:flex;justify-content:space-around;}
-		blockquote{margin:0 1em 0 -.5em; text-align:left;}
+		blockquote{margin:0 1em 0 -.5em; text-align:left;font-size: .85rem;}
 		h1.display-2 {font-family: 'gnutypewriter','serif';font-size:4.3rem;}
-		blockquote,.quote-src{font-family: 'DroidSerif', serif;}
-		.quote-src{float:right;text-align:right;}
+		h2 {font-family: 'gnutypewriter','serif';font-size: 1.7rem;}
+		blockquote{font-family: 'DroidSerif', serif;}
+		.quote-src{text-align:right;}
 		img {max-width:100%;filter: sepia(100%) saturate(202%) hue-rotate(180deg) blur(2px);opacity: 0.5;}
 		footer a {color:#aaa;display:block;}
 		.card-inverse,footer {background:rgba(17,17,17,.8);border:solid 1px silver;}
 		.card {margin-bottom:1em;border-radius:.75rem;border-color:rgb(251,235,102);-webkit-box-shadow:0px 0px 5px 3px rgba(251,235,102,.8);-moz-box-shadow:0px 0px 5px 3px rgba(251,235,102,.8);box-shadow:0px 0px 5px 3px rgba(251,235,102,.8);}
 		.card:hover {-webkit-box-shadow:0px 0px 8px 5px rgba(251,235,102,.95);-moz-box-shadow:0px 0px 8px 5px rgba(251,235,102,.95);box-shadow:0px 0px 8px 5px rgba(251,235,102,.95);}
 		.card a{color:inherit;}
-		.card:hover {background:#000;}
-		.card:hover, .card:hover .card-text{color:#fff;}
-		.card:hover a{text-decoration:none;color:inherit;}
+		.card:hover,footer:hover {background:#000;}
+		.card:hover h2 {color:transparent;transition: .2s color linear;}
+		.card h2 {transition: 1s color linear;}
+		.card:hover, .card:hover .card-text, footer:hover a{color:#fff;}
+		footer a:hover {color:#fff;}
+		.card:hover a, footer a{text-decoration:none;color:inherit;}
 		.card:hover img {filter: none;opacity: 1;transition: .2s filter linear;}
+		.card img {transition: 1s filter linear;}
 		.jumbotron {background:transparent;}
 		.jumbotron .card, footer {border:none;box-shadow:none;-webkit-box-shadow:none;border-radius:0;color:#fff;}
 		.jumbotron .card p.lead {text-align:justify;}
 		h1 small {font-weight:inherit;color:grey;}
-		.card-text {text-align:justify;margin:0 .5em;}
+		.card-text {text-align:justify;margin:0 .5em 1em;}
 
 	</style>
 </head>
@@ -41,58 +46,62 @@
 <div class="jumbotron jumbotron-fluid">
 	<div class="container card text-center card-inverse">
 		<h1 class="display-2">StephaneMourey<small>.fr</small></h1>
-		<p class="lead">Un auteur pour vous !</p>
+		<p class="lead">Dans un dédale pluvieux, un homme erre. Que cherche-t-il&nbsp;? Une issue&nbsp;? Un sens à l'existence&nbsp;?<br>Pour se guider, il trace sur son chemin des signes bien vite effacés par la pluie.</p>
 	</div>
 </div>
 
 <div id="container" class="container">
 	<div class="card-deck">
 		<div class="card text-center card-inverse">
-			<a href="#" title="Lire">
-				<img class="card-img-top" src="img/green-leaf-in-the-rain.jpg" alt="Feuille verte dans la pluie">
-				<!-- http://www.publicdomainpictures.net/view-image.php?image=23189 -->
-				<div class="card-block">
-					<h2 class="card-title">Démangeaisons</h2>
-					<p class="card-motto">Un petit cadeau<br>fait d'un peu<br>de vanité</p>
-					<p class="card-text">La poésie fait affleurer l'indicible. Bien souvent, cet indicible vient démanger l'esprit au c&oelig;ur de la nuit. La seule issue est alors de gratter quelques mots désordonnés sur le papier afin de retrouver le sommeil.</p>
-				</div>
-			</a>
-		</div>
-		<div class="card text-center card-inverse">
-			<a href="#" title="Lire">
+			<a href="http://exils-oniriques.stephanemourey.fr" title="Lire">
 				<img class="card-img-top" src="img/Waiting_out_the_rain_under_a_tree.jpg" alt="Un escalier sous la pluie">
 				<!-- https://commons.wikimedia.org/wiki/File:Waiting_out_the_rain_under_a_tree_(5217038792).jpg -->
 				<div class="card-block">
 					<h2 class="card-title">Exils Oniriques</h2>
 					<blockquote>&laquo;&nbsp;Dans un monde unifié, on ne peut pas s'exiler.&nbsp;&raquo;</blockquote>
 					<p class="quote-src">Guy Debord, <em>Panégyrique, 1</em></p>
+					<p class="card-text">Pourtant, il reste possible de rêver l'exil. Prise dans ce songe, parfois, l'imagination s'envole jusqu'à devenir histoires.</p>
+				</div>
+			</a>
+		</div>
+		<div class="card text-center card-inverse">
+			<a href="http://demangeaisons.stephanemourey.fr" title="Lire">
+				<img class="card-img-top" src="img/green-leaf-in-the-rain.jpg" alt="Feuille verte dans la pluie">
+				<!-- http://www.publicdomainpictures.net/view-image.php?image=23189 -->
+				<div class="card-block">
+					<h2 class="card-title">Démangeaisons</h2>
+					<!--p class="card-motto">Un petit cadeau<br>fait d'un peu<br>de vanité</p-->
+					<p class="card-text">Bien souvent, l'indicible vient démanger l'esprit au c&oelig;ur de la nuit. La seule issue est alors de gratter quelques mots désordonnés sur le papier afin de retrouver le sommeil.</p>
+					<p class="card-text">Le lendemain, parfois, cela ressemble à de la poésie.</p>
 				</div>
 			</a>
 		</div>
 	</div>
 	<div class="card-deck">
 		<div class="card text-center card-inverse">
-			<a href="#" title="Lire">
+			<a href="http://reflexions.stephanemourey.fr" title="Lire">
 				<img class="card-img-top" src="img/Bicycle_reflections.jpg" width="100%"  alt="Reflet d'un cycliste dans une flaque">
 				<!-- https://commons.wikimedia.org/wiki/File:Bicycle_reflections.jpg -->
 				<div class="card-block">
 					<h2 class="card-title">Réflexions</h2>
-					<p class="card-text">De quoi penser...</p>
+					<blockquote>&laquo;&nbsp;Les miroirs feraient bien de réfléchir un peu plus avant de renvoyer les images.&nbsp;&raquo;</blockquote>
+					<p class="quote-src">Jean Cocteau, <em>Orphée</em></p>
 				</div>
 			</a>
 		</div>
 		<div class="card text-center card-inverse">
-			<a href="#" title="Lire">
+			<a href="http://courts.stephanemourey.fr" title="Lire">
 				<img class="card-img-top" src="img/nature-rain-drop-of-water-blurred.jpg" alt="Un brin d'herbe mouillé">
 				<!-- https://www.pexels.com/photo/nature-rain-drop-of-water-blurred-3782/ -->
 				<div class="card-block">
 					<h2 class="card-title">Textes Courts</h2>
-					<p class="card-text">Faux haïkus et tweets</p>
+					<p class="card-motto">Pas d’esprit nippon<br>Juste la fabrique quotidienne<br>De perles de sens </p>
+					<p class="card-text">Faux haïkus et tweets pour amateurs de littérature miniature.</p>
 				</div>
 			</a>
 		</div>
 		<div class="card text-center card-inverse">
-			<a href="#">
+			<a href="http://enfer.stephanemourey.fr">
 				<img class="card-img-top" src="img/14959602630_47ce2dd56e_b.jpg" alt="Rue après la pluie">
 				<!-- https://www.flickr.com/photos/henk-sijgers/14959602630 -->
 				<div class="card-block">
@@ -109,14 +118,14 @@
 				<img class="card-img-top" src="img/walk-in-the-fog.jpg" alt="Un homme dans le brouillard">
 				<!-- http://www.publicdomainpictures.net/view-image.php?image=65298&picture=marcher-dans-le-brouillard -->
 				<div class="card-block">
-					<h2 class="card-title">Mon Zim</h2>
-					<p class="card-text">Un genre de Wiki personnel chaotique</p>
+					<h2 class="card-title">Mon&nbsp;Zim</h2>
+					<p class="card-text">Zim est un éditeur de Wiki personnel. &Agrave; ce titre, il se révèle idéal pour stocker de manière désordonnée à peu près n'importe quoi, du moment que cela prend la forme d'un texte. Je l'utilise depuis quelques temps, comme un carnet de notes ou un immense brouillon.</p>
 				</div>
 			</a>
 		</div>
 	</div>
 	<footer>
-		<a href="#">A propos</a><a href="#">Mentions légales</a>
+		<a href="#">A propos</a><a href="#">Mentions&nbsp;légales</a>
 	</footer>
 </div>
 </body>
