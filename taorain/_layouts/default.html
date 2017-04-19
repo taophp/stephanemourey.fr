@@ -14,6 +14,20 @@
 	<link rel="stylesheet" href="http://stephanemourey.fr/res/main.css">
 </head>
 <body>
+<div class="jumbotron jumbotron-fluid">
+	<div class="container card text-center card-inverse">
+		<h1 class="display-2">Stephane Mourey<small>.fr</small></h1>
+		<p class="lead">Dans un dédale pluvieux, un homme erre. Que cherche-t-il&nbsp;? Une issue&nbsp;? Un sens à l'existence&nbsp;?<br>Pour se guider, il trace sur son chemin des signes bien vite effacés par la pluie.</p>
+	</div>
+</div>
+
+<div id="container" class="container">
 	{{ content }}
+	<footer>
+		{% for page in site.pages %}
+			<a href="{{ page.url }}">{{ page.title }}</a>
+		{% endfor %}
+	</footer>
+</div>
 </body>
 </html>

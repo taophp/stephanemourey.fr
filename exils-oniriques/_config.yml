@@ -24,7 +24,7 @@ github_username:  taophp
 
 # Build settings
 markdown: kramdown
-theme: minima
+theme: taorain
 gems:
   - jekyll-feed
 exclude:
