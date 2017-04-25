@@ -4,3 +4,5 @@
 _site
 _posts
 Gemfile.lock
+_config.yml
+index.md

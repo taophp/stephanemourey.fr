@@ -2,8 +2,8 @@
 <html lang="fr">
 <head>
 	<meta charset="utf-8">
-	<title>{{ page.title }} > {{site.title}}</title>
-	<meta name="description" content="Le site officiel de Stéphane Mourey">
+	<title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title | strip_html }}</title>
+	<meta name="description" content="{{ site.description | strip_html }}">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<link rel="stylesheet" href="http://stephanemourey.fr/res/bootstrap.min.css">
 	<link rel="stylesheet" href="http://stephanemourey.fr/res/webfonts/droidserif_regular_macroman/stylesheet.css">
@@ -16,8 +16,8 @@
 <body>
 <div class="jumbotron jumbotron-fluid">
 	<div class="container card text-center card-inverse">
-		<h1 class="display-2">Stephane Mourey<small>.fr</small></h1>
-		<p class="lead">Dans un dédale pluvieux, un homme erre. Que cherche-t-il&nbsp;? Une issue&nbsp;? Un sens à l'existence&nbsp;?<br>Pour se guider, il trace sur son chemin des signes bien vite effacés par la pluie.</p>
+		<h1 class="display-2">{{ site.title }}</h1>
+		<p class="lead">{{ site.description }}</p>
 	</div>
 </div>
 
