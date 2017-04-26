@@ -1,5 +1,17 @@
 ---
 layout: default
 ---
+<div class="card-deck">
+	<div class="card text-center card-inverse">
+		<a href="{{ post.url | relative_url }}" title="Lire">
+			{% if post.img %}
+				<img class="card-img-top" src="res/img/Waiting_out_the_rain_under_a_tree.jpg" alt="Un escalier sous la pluie">
+			{% endif %}
+			<div class="card-block">
+				<h2 class="card-title">{{ post.title }}</h2>
+				{{ content }}
+			</div>
+		</a>
+	</div>
+</div>
 
-{{ content }}
