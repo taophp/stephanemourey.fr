@@ -7,21 +7,23 @@ h2 {font-family: 'gnutypewriter','serif';font-size: 1.7rem;}
 blockquote{font-family: 'DroidSerif', serif;}
 .quote-src{text-align:right;}
 img {max-width:100%;filter: sepia(100%) saturate(202%) hue-rotate(180deg) blur(2px);opacity: 0.5;}
-footer a {color:#aaa;display:block;}
-.card-inverse,footer {background:rgba(17,17,17,.8);border:solid 1px silver;}
+header, footer a {color:#aaa;}
+header a {color:yellow;text-decoration:none;}
+footer a {display:block;}
+.card-inverse, footer,header {background:rgba(17,17,17,.8);border:solid 1px silver;}
 .card {margin-bottom:1em;border-radius:.75rem;border-color:rgb(251,235,102);-webkit-box-shadow:0px 0px 5px 3px rgba(251,235,102,.8);-moz-box-shadow:0px 0px 5px 3px rgba(251,235,102,.8);box-shadow:0px 0px 5px 3px rgba(251,235,102,.8);}
 .card:hover {-webkit-box-shadow:0px 0px 8px 5px rgba(251,235,102,.95);-moz-box-shadow:0px 0px 8px 5px rgba(251,235,102,.95);box-shadow:0px 0px 8px 5px rgba(251,235,102,.95);}
 .card a{color:inherit;}
-.card:hover,footer:hover {background:#000;}
+.card:hover, header:hover, footer:hover {background:#000;}
 .card:hover h2 {color:transparent;transition: .2s color linear;}
 .card h2 {transition: 1s color linear;}
-.card:hover, .card:hover .card-text, footer:hover a{color:#fff;}
-footer a:hover {color:#fff;}
+.card:hover, .card:hover .card-text, footer:hover a, header:hover a{color:#fff;}
+header a:hover, footer a:hover footer a:hover {color:#fff;}
 .card:hover a, footer a{text-decoration:none;color:inherit;}
 .card:hover img {filter: none;opacity: 1;transition: .2s filter linear;}
 .card img {transition: 1s filter linear;}
 .jumbotron {background:transparent;}
-.jumbotron .card, footer {border:none;box-shadow:none;-webkit-box-shadow:none;border-radius:0;color:#fff;}
+.jumbotron .card, header, footer {border:none;box-shadow:none;-webkit-box-shadow:none;border-radius:0;color:#fff;}
 .jumbotron .card p.lead {text-align:justify;}
 h1 small {font-weight:inherit;color:grey;}
 .card-text {text-align:justify;margin:0 .5em 1em;}
