@@ -2,6 +2,5 @@
 .bundle
 .sass-cache
 _site
-_posts
 Gemfile.lock
 _config.yml
