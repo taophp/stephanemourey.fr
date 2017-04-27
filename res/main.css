@@ -27,3 +27,10 @@ header a:hover, footer a:hover footer a:hover {color:#fff;}
 .jumbotron .card p.lead {text-align:justify;}
 h1 small {font-weight:inherit;color:grey;}
 .card-text {text-align:justify;margin:0 .5em 1em;}
+.licence {margin:auto;text-align:center;clear:both;font-size:80%;line-height:1.1em;}
+.licence img {filter:none;opacity:1;}
+footer {display:flex;flex-direction:column;margin-top:1em;}
+.footermenu {display: flex; justify-content: space-around;border-bottom:1px solid rgba(128, 128, 128, 0.3);margin-bottom:.5em;}
+.card-block > * {max-width:33em;margin:auto;}
+.card.unflex {max-width:40em;margin:auto;}
+.card.unflex img.card-img-top {width:100%;margin:0 1em 1em 0;}
