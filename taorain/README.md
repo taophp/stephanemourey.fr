@@ -1,6 +1,6 @@
 ---
 title: A propos
-layout: default
+layout: page
 ---
 # taorain
 
@@ -8,7 +8,15 @@ Welcome to your new Jekyll theme! In this directory, you'll find the files you n
 
 TODO: Delete this and the text above, and describe your gem
 
-## Installation
+## Build the theme gem
+
+## Install the theme gem on the system
+
+Or install it yourself as:
+
+    $ gem install -l taorain
+
+## Install the theme in the Jekyll site
 
 Add this line to your Jekyll site's `Gemfile`:
 
@@ -26,9 +34,6 @@ And then execute:
 
     $ bundle
 
-Or install it yourself as:
-
-    $ gem install taorain
 
 ## Usage
 
