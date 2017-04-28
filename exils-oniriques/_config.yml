@@ -13,7 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Impossibles Exils - StephaneMourey.fr
+title: Exils Oniriques
 email: steph@stephanemourey.fr
 description: >
   Si, dans un monde unifié, on ne peut pas s'exiler, il reste possible de rêver l'exil. Prise dans ce songe, parfois, l'imagination s'envole jusqu'à devenir histoires.
