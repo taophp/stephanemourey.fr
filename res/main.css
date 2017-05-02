@@ -34,3 +34,4 @@ footer {display:flex;flex-direction:column;margin-top:1em;}
 .card-block > * {max-width:33em;margin:auto;}
 .card.unflex {max-width:40em;margin:auto;}
 .card.unflex img.card-img-top {width:100%;margin:0 1em 1em 0;}
+div.footnotes {margin-top:25vw;}
