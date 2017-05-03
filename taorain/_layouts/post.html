@@ -6,31 +6,41 @@ layout: default
 <div id="pagination"></div>
 <script>
 	$(document).ready(function(){
-		$('#pagination').paging(Math.ceil($('.card-block p').length),{
-			format: '[< ncnnn! >]', // define how the navigation should look like and in which order onFormat() get's called
-			perpage: 10,
-			lapping:  0,
-			page: Cookies.get("current") || 1,
-			onSelect: function (page) {
-				Cookies.set("current", page);
-				$('.card-block p').css('display', 'none');
-				$('.card-block p').slice(this.slice[0],this.slice[1]).css('display', 'block');
-				console.log(this);
-			},
-			onFormat: function (type) {
-				switch (type) {
-				case 'block': // n and c
-					return '<a href="#">' + this.value + '</a>&nbsp;';
-				case 'next': // >
-					return '<a href="#">&nbsp;&gt&nbsp;</a>';
-				case 'prev': // <
-					return '<a href="#">&lt;&nbsp;&nbsp;</a>';
-				case 'first': // [
-					return '<a href="#">Début&nbsp;</a>';
-				case 'last': // ]
-					return '<a href="#">Fin</a>';
-				}
+		nbPages = Math.ceil($('.card-block p').length);
+		if (nbPages > 10) {
+			for (i=1;i<=nbPages;i++){
+				$('.card-block').prepend($('<span id="'+i+'"></span>'));
 			}
-		});
+			pager = $('#pagination').paging(nbPages,{
+				format: '[< ncnnn! >]', // define how the navigation should look like and in which order onFormat() get's called
+				perpage: 10,
+				lapping:  0,
+				page: location.hash.substr(1) || Cookies.get("current-{{ page.url }}") || 1,
+				onSelect: function (page) {
+					Cookies.set("current-{{ page.url }}", page);
+					location.hash = page;
+					$('.card-block p').css('display', 'none');
+					$('.card-block p').slice(this.slice[0],this.slice[1]).css('display', 'block');
+				},
+				onFormat: function (type) {
+					switch (type) {
+					case 'block': // n and c
+						return '<a href="#'+this.value+'">'+this.value+'</a>&nbsp;';
+					case 'next': // >
+						return '<a href="#'+this.value+'">&nbsp;&gt&nbsp;</a>';
+					case 'prev': // <
+						return '<a href="#'+this.value+'">&lt;&nbsp;&nbsp;</a>';
+					case 'first': // [
+						return '<a href="#'+this.value+'" class="push-left">|&laquo;&nbsp;</a>';
+					case 'last': // ]
+						return '<a href="#'+this.value+'" class="push-right">&nbsp;&raquo;|</a>';
+					}
+				}
+			});
+			$(window).bind( 'hashchange', function(){pager.setPage(location.hash.substr(1));});
+			if (location.hash.substr(1)) {
+				pager.setPage(location.hash.substr(1));
+			}
+		};
 	});
 </script>
