@@ -1,5 +1,4 @@
 ---
-img: /img/rockin__in_the_rain_by_lhindylourhage-d70x4yg.jpg
 imgSrc: http://lhindylourhage.deviantart.com/art/Rockin-in-the-Rain-424809304
 layout: post
 title:  "La Meilleure des Vies"
@@ -66,7 +65,7 @@ Il sortit en fermant la porte. Elle l’entendit qui annonçait son retour au pu
 
 Elle était debout, la guitare posée sur son support à côté d’elle. Elle avait les yeux clos, le visage vers le ciel, les paumes ouvertes tournées vers le public. Les applaudissements et les cris se turent, laissant place au silence. Le temps semblait suspendu lorsqu’elle commença à parler doucement, récitant comme absente.
 
-*\<\< It was the happy days*[^1]
+*\<\< It was the happy days*
 
 *Friends and family*
 
@@ -164,67 +163,3 @@ La chanson s’acheva dans le silence. Elle ne dit rien, resta immobile.
 
 Lui, pleura.
 
-
-* * * * *
-
-[^1]: Pour les lecteurs non-anglophones, je traduis ici le texte de la chanson dans son intégralité.
-
-    *C’était les jours heureux*
-
-    *Amis et famille*
-
-    *Ils étaient tous gentils*
-
-    *Tout était bien*
-
-    *Pas de quoi s’inquiéter*
-
-    *Et puis Papa est mort, me laissant...*
-
-    *Seule devant mon miroir*
-
-    *Seule devant mon mariage*
-
-    *Seule devant ma vie*
-
-    *Et je me demande...*
-
-    *Les jours chargés arrivent*
-
-    *Il y aura les bébés*
-
-    *Le ménage et le travail*
-
-    *Chaque jour sera assez*
-
-    *Tant de choses à penser*
-
-    *Et puis les enfants s’en iront, me laissant...*
-
-    *Seule devant mon miroir*
-
-    *Seule devant mon chagrin*
-
-    *Seule devant ma mort*
-
-    *Et je me demande...*
-
-    *Maintenant, il faut y aller*
-
-    *Dire Oui et toujours*
-
-    *Sourire et embrasser*
-
-    *Feindre la joie*
-
-    *Ne s’inquiéter de rien*
-
-    *Jusqu’à ce qu’ils soient tous partis et me laisse...*
-
-    *Seule devant mon miroir*
-
-    *Seule devant ma lune de miel*
-
-    *Seule devant ma vie*
-
-    *La Meilleure Des Vies*

@@ -6,30 +6,31 @@ layout: default
 <div id="pagination"></div>
 <script>
 	$(document).ready(function(){
-		$('#pagination').paging(1337,{ // make 1337 elements navigatable
-		format: '[< ncnnn! >]', // define how the navigation should look like and in which order onFormat() get's called
-		perpage: 10, // show 10 elements per page
-		lapping: 0, // don't overlap pages for the moment
-		page: 1, // start at page, can also be "null" or negative
-		onSelect: function (page) {
-			// add code which gets executed when user selects a page, how about $.ajax() or $(...).slice()?
-			console.log(this);
-		},
-		onFormat: function (type) {
-			switch (type) {
-			case 'block': // n and c
-				return '<a href="#">' + this.value + '</a>';
-			case 'next': // >
-				return '<a href="#">&gt;</a>';
-			case 'prev': // <
-				return '<a href="#">&lt;</a>';
-			case 'first': // [
-				return '<a href="#">first</a>';
-			case 'last': // ]
-				return '<a href="#">last</a>';
+		$('#pagination').paging(Math.ceil($('.card-block p').length),{
+			format: '[< ncnnn! >]', // define how the navigation should look like and in which order onFormat() get's called
+			perpage: 10,
+			lapping:  0,
+			page: Cookies.get("current") || 1,
+			onSelect: function (page) {
+				Cookies.set("current", page);
+				$('.card-block p').css('display', 'none');
+				$('.card-block p').slice(this.slice[0],this.slice[1]).css('display', 'block');
+				console.log(this);
+			},
+			onFormat: function (type) {
+				switch (type) {
+				case 'block': // n and c
+					return '<a href="#">' + this.value + '</a>&nbsp;';
+				case 'next': // >
+					return '<a href="#">&nbsp;&gt&nbsp;</a>';
+				case 'prev': // <
+					return '<a href="#">&lt;&nbsp;&nbsp;</a>';
+				case 'first': // [
+					return '<a href="#">Début&nbsp;</a>';
+				case 'last': // ]
+					return '<a href="#">Fin</a>';
+				}
 			}
-		}
+		});
 	});
-	});
-
 </script>
