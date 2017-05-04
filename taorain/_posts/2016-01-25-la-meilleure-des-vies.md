@@ -65,33 +65,33 @@ Il sortit en fermant la porte. Elle l’entendit qui annonçait son retour au pu
 
 Elle était debout, la guitare posée sur son support à côté d’elle. Elle avait les yeux clos, le visage vers le ciel, les paumes ouvertes tournées vers le public. Les applaudissements et les cris se turent, laissant place au silence. Le temps semblait suspendu lorsqu’elle commença à parler doucement, récitant comme absente.
 
-*\<\< It was the happy days*
+*&laquo; It was the happy days*
 
 *Friends and family*
 
-*All were kind \>\>*
+*All were kind &raquo;*
 
 Elle ouvrit alors les yeux, mais son regard fuyait vers l’horizon. Sa voix prit de l’ampleur, mais elle ne chantait toujours pas.
 
-*\<\< Everything was fine*
+*&laquo; Everything was fine*
 
 *Nothing to worry about*
 
-*Then Daddy died and left me... \>\>*
+*Then Daddy died and left me... &raquo;*
 
 Au milieu de ce dernier vers, sur le mot _died_, sa voix se brisa, presque en un sanglot et elle l’acheva comme aphone. Elle marqua un nouveau silence prolongé. Personne ne bougeait. Personne n’osait faire le moindre bruit. Elle était comme seule dans le désert, chantant pour l’immensité. Elle inspira profondément redressant ses épaules et son dos. Elle bloqua sa respiration et entrouvrit ses lèvres. On entendit d’abord rien, puis ceux qui se trouvaient le plus proche d’elle commencèrent à entendre une note ténue qui prit de l’ampleur. Sally fit durer cette note autant qu’elle put sans en réduire le volume et lorsqu’elle n’y tint plus, relâcha brusquement sa respiration et prononça la deuxième syllabe du mot.
 
-*\<\< Alone before my mirror*
+*&laquo; Alone before my mirror*
 
 La fin du vers vint beaucoup plus vite et à partir de là, le chant trouva sa mélodie et son rythme normal.
 
-*\<\< Alone before my life*
+*&laquo; Alone before my life*
 
-*And I wonder... \>\>*
+*And I wonder... &raquo;*
 
 Sally était arrivée à la fin du premier refrain. Elle s’interrompit, mais seulement le temps d’attraper sa guitare à côté d’elle et d’en passer la sangle au-dessus de sa tête. Elle joua les premiers accords et enchaîna sur la deuxième strophe.
 
-*\<\< Busy days are coming*
+*&laquo; Busy days are coming*
 
 *There will be babies*
 
@@ -101,23 +101,23 @@ Sally était arrivée à la fin du premier refrain. Elle s’interrompit, mais s
 
 *So much things to care about*
 
-*Then children will be gone and left me...\>\>*
+*Then children will be gone and left me...&raquo;*
 
 La strophe avait un rythme régulier, marqué à peine par la rupture des vers, et une mélodie monocorde qui rendait le chant proche de la parole.
 
-*\<\< Alone before my mirror*
+*&laquo; Alone before my mirror*
 
 *Alone before my sadness*
 
-*Alone before my death \>\>*
+*Alone before my death &raquo;*
 
 Le refrain, lui, était beaucoup plus chanté, reprenant trois fois la même phrase mélodique qui en devenait entêtante. Cette phrase était plus haut perchée, plus aiguë que le reste de la chanson, et le dernier vers du refrain était comme un retour vers la parole, avec une descente vers les graves et un rythme peu marqué.
 
-*\<\< And I wonder... \>\>*
+*&laquo; And I wonder... &raquo;*
 
 Elle prit alors le temps de reprendre la mélodie à la guitare, sans chanter. Elle laissa la musique s’exprimer sans le texte, effectuant des variations. Elle regardait ses mains virevolter et semblait ignorer complètement le public. Enfin, la guitare se fit moins virtuose, retrouvant son rôle d’accompagnement.
 
-*\<\< Now, it’s time to go*
+*&laquo; Now, it’s time to go*
 
 *Say Yes and ever*
 
@@ -127,19 +127,19 @@ Elle prit alors le temps de reprendre la mélodie à la guitare, sans chanter. E
 
 *Care about nothing*
 
-*Until they’re all gone and left me... \>\>*
+*Until they’re all gone and left me... &raquo;*
 
 Cette dernière strophe, elle l’avait jouée plus fort, en marquant beaucoup plus nettement le rythme. Là où dans les strophes précédentes elle avait laissé voir la tristesse, elle faisait maintenant apparaître la colère se mêlant au chagrin. Sa voix vibrait, et elle semblait sur le point de fondre en larmes. Puis elle marqua une légère pause avant de reprendre le dernier refrain. Elle se souvenait qu’autrefois, lors de ses concerts, à ce moment-là, tous les instruments s’arrêtaient de jouer, seules la guitare électrique et la basse continuaient à se faire entendre, mais seulement en tenant leur dernier accord jusqu’au dernier vers, qu’elle prononçait seule dans le silence. Ici, avec une guitare sèche, ce n’était pas possible. Elle décida alors de garder son dernier accord, de ne pas en changer, et de faire aller et venir doucement son médiateur sur les cordes dans un mouvement continu et fluide, cherchant à imiter l’effet produit par un accord tenu.
 
-*\<\< Alone before my mirror*
+*&laquo; Alone before my mirror*
 
 *Alone before my honeymoon*
 
-*Alone before my life \>\>*
+*Alone before my life &raquo;*
 
 Là, elle éteignit les cordes. Si elle avait eu un micro, elle l’aurait pris dans ses deux mains, penchant le pied vers elle. Et elle prononça le dernier vers en marquant et en séparant bien chaque syllabe dans un silence absolu.
 
-*\<\< My Brave New Life \>\>*
+*&laquo; My Brave New Life &raquo;*
 
 Ce dernier mot resta un instant suspendu dans l’air sans que rien ne bouge. Puis elle entendit les applaudissements. Mais elle ne voyait plus ceux qui l’acclamaient. Des points noirs avaient brusquement envahi sa vision jusqu’à ce qu’il n’y eut plus que l’obscurité.
 
