@@ -8,7 +8,8 @@ layout: default
 	$(document).ready(function(){
 		nbPages = Math.ceil($('.card-block > p').length);
 		if (nbPages > 10) {
-			for (i=1;i<=nbPages;i++){
+			$('.jumbotron').prepend($('<span id="1"></span>'));
+			for (i=2;i<=nbPages;i++){
 				$('.card-block').prepend($('<span id="'+i+'"></span>'));
 			}
 			pager = $('#pagination').paging(nbPages,{
@@ -27,15 +28,13 @@ layout: default
 					case 'block': // n and c
 						return '<a href="#'+this.value+'" >'+this.value+'</a>&nbsp;';
 					case 'next': // >
-						return '<a href="#'+this.value+'" class="push-right" title="Page suivante"><span class="nextPage"><img src="http://www.free-icons-download.net/images/black-button-on--next-page-of-icons-69807.png" alt="&gt;" class="rounded-circle"></span></a>';
-						//http://www.free-icons-download.net/black-button-on-next-page-of-icons-69807/
+						return '<a href="#'+this.value+'" class="push-right" title="Page suivante"><span class="nextPage"><img src="http://stephanemourey.fr/res/img/next.png" alt="&gt;" class="rounded-circle"></span></a>';
 					case 'prev': // <
-						return '<a href="#'+this.value+'" title="Page précédente"><span class="previousPage"><img src="http://www.free-icons-download.net/images/blacks-previous-icon-69487.png" alt="&lt;" class="rounded-circle"></span></a>';
-						//http://www.free-icons-download.net/blacks-previous-icon-69487/
+						return '<a href="#'+this.value+'" title="Page précédente"><span class="previousPage"><img src="http://stephanemourey.fr/res/img/prev.png" alt="&lt;" class="rounded-circle"></span></a>';
 					case 'first': // [
-						return '<a href="#'+this.value+'" title="Première page"><span class="firstPage">|&laquo;</span></a>';
+						return '<a href="#'+this.value+'" title="Première page"><span class="firstPage"><img src="http://stephanemourey.fr/res/img/first.png" alt="|&laquo;" class="rounded-circle"></span></a>';
 					case 'last': // ]
-						return '<a href="#'+this.value+'" class="push-right title="Dernière page""><span class="lastPage">&raquo;|</span></a>';
+						return '<a href="#'+this.value+'" class="push-right title="Dernière page""><span class="lastPage"><img src="http://stephanemourey.fr/res/img/last.png" alt="&raquo;|" class="rounded-circle"></span></a>';
 					}
 				}
 			});
@@ -46,41 +45,3 @@ layout: default
 		};
 	});
 </script>
-<style>
-	#pagination a.push-right {
-		float:right;
-	}
-	#pagination img {
-		filter:none;
-		opacity:1;
-		background:#fff;
-	}
-		#pagination span {
-			display: inline-block;
-			height: 2.7rem;
-			width: 2rem;
-			padding: .5rem;
-			font-size: 120%;
-			font-weight: bold;
-			margin:0 .5em;
-		}
-	@media screen and (min-width: 1024px) {
-		#pagination span {
-			display: block;
-			position: fixed;
-			top: 50vh;
-		}
-		#pagination span.firstPage {
-			margin-left:-8.5rem;
-		}
-		#pagination span.previousPage {
-			margin-left:-5.5rem;
-		}
-		#pagination span.nextPage {
-			margin-left:3em;
-		}
-		#pagination span.lastPage {
-			margin-left:6em;
-		}
-	}
-</style>

@@ -66,17 +66,17 @@ Il sortit en fermant la porte. Elle l’entendit qui annonçait son retour au pu
 Elle était debout, la guitare posée sur son support à côté d’elle. Elle avait les yeux clos, le visage vers le ciel, les paumes ouvertes tournées vers le public. Les applaudissements et les cris se turent, laissant place au silence. Le temps semblait suspendu lorsqu’elle commença à parler doucement, récitant comme absente.
 
 *&laquo; It was the happy days*
-
+<br>
 *Friends and family*
-
+<br>
 *All were kind &raquo;*
 
 Elle ouvrit alors les yeux, mais son regard fuyait vers l’horizon. Sa voix prit de l’ampleur, mais elle ne chantait toujours pas.
 
 *&laquo; Everything was fine*
-
+<br>
 *Nothing to worry about*
-
+<br>
 *Then Daddy died and left me... &raquo;*
 
 Au milieu de ce dernier vers, sur le mot _died_, sa voix se brisa, presque en un sanglot et elle l’acheva comme aphone. Elle marqua un nouveau silence prolongé. Personne ne bougeait. Personne n’osait faire le moindre bruit. Elle était comme seule dans le désert, chantant pour l’immensité. Elle inspira profondément redressant ses épaules et son dos. Elle bloqua sa respiration et entrouvrit ses lèvres. On entendit d’abord rien, puis ceux qui se trouvaient le plus proche d’elle commencèrent à entendre une note ténue qui prit de l’ampleur. Sally fit durer cette note autant qu’elle put sans en réduire le volume et lorsqu’elle n’y tint plus, relâcha brusquement sa respiration et prononça la deuxième syllabe du mot.
@@ -86,29 +86,29 @@ Au milieu de ce dernier vers, sur le mot _died_, sa voix se brisa, presque en un
 La fin du vers vint beaucoup plus vite et à partir de là, le chant trouva sa mélodie et son rythme normal.
 
 *&laquo; Alone before my life*
-
+<br>
 *And I wonder... &raquo;*
 
 Sally était arrivée à la fin du premier refrain. Elle s’interrompit, mais seulement le temps d’attraper sa guitare à côté d’elle et d’en passer la sangle au-dessus de sa tête. Elle joua les premiers accords et enchaîna sur la deuxième strophe.
 
 *&laquo; Busy days are coming*
-
+<br>
 *There will be babies*
-
+<br>
 *Housekeeping and work*
-
+<br>
 *Every day will be enough*
-
+<br>
 *So much things to care about*
-
+<br>
 *Then children will be gone and left me...&raquo;*
 
 La strophe avait un rythme régulier, marqué à peine par la rupture des vers, et une mélodie monocorde qui rendait le chant proche de la parole.
 
 *&laquo; Alone before my mirror*
-
+<br>
 *Alone before my sadness*
-
+<br>
 *Alone before my death &raquo;*
 
 Le refrain, lui, était beaucoup plus chanté, reprenant trois fois la même phrase mélodique qui en devenait entêtante. Cette phrase était plus haut perchée, plus aiguë que le reste de la chanson, et le dernier vers du refrain était comme un retour vers la parole, avec une descente vers les graves et un rythme peu marqué.
@@ -118,23 +118,23 @@ Le refrain, lui, était beaucoup plus chanté, reprenant trois fois la même phr
 Elle prit alors le temps de reprendre la mélodie à la guitare, sans chanter. Elle laissa la musique s’exprimer sans le texte, effectuant des variations. Elle regardait ses mains virevolter et semblait ignorer complètement le public. Enfin, la guitare se fit moins virtuose, retrouvant son rôle d’accompagnement.
 
 *&laquo; Now, it’s time to go*
-
+<br>
 *Say Yes and ever*
-
+<br>
 *Smile and kiss*
-
+<br>
 *Faint happiness*
-
+<br>
 *Care about nothing*
-
+<br>
 *Until they’re all gone and left me... &raquo;*
 
 Cette dernière strophe, elle l’avait jouée plus fort, en marquant beaucoup plus nettement le rythme. Là où dans les strophes précédentes elle avait laissé voir la tristesse, elle faisait maintenant apparaître la colère se mêlant au chagrin. Sa voix vibrait, et elle semblait sur le point de fondre en larmes. Puis elle marqua une légère pause avant de reprendre le dernier refrain. Elle se souvenait qu’autrefois, lors de ses concerts, à ce moment-là, tous les instruments s’arrêtaient de jouer, seules la guitare électrique et la basse continuaient à se faire entendre, mais seulement en tenant leur dernier accord jusqu’au dernier vers, qu’elle prononçait seule dans le silence. Ici, avec une guitare sèche, ce n’était pas possible. Elle décida alors de garder son dernier accord, de ne pas en changer, et de faire aller et venir doucement son médiateur sur les cordes dans un mouvement continu et fluide, cherchant à imiter l’effet produit par un accord tenu.
 
 *&laquo; Alone before my mirror*
-
+<br>
 *Alone before my honeymoon*
-
+<br>
 *Alone before my life &raquo;*
 
 Là, elle éteignit les cordes. Si elle avait eu un micro, elle l’aurait pris dans ses deux mains, penchant le pied vers elle. Et elle prononça le dernier vers en marquant et en séparant bien chaque syllabe dans un silence absolu.
@@ -155,7 +155,7 @@ Elle se leva et constata qu’elle portait son pyjama de satin blanc qu’elle a
 
 Elle sortit de sa chambre pour partir à la recherche de quelqu’un qui pourrait lui expliquer ce qui s’était passé depuis le concert. Elle en devinait les plus grandes lignes, naturellement, mais il fallait bien reprendre contact avec le monde des vivants, non ?
 
-Dans le couloir, elle entendit alors de la musique, une guitare sèche qui jouait seule dans une pièce voisine. Elle suivit la mélodie. Elle la reconnut : , encore une fois. Puis elle fut surprise d’entendre une voix chanter, une voix d’homme. Elle n’aurait jamais pensé qu’un homme pourrait chanter cette balade. *A priori*, ce timbre viril semblait mal convenir aux pensées d’une jeune mariée. Mais il arrivait à faire de sa gravité une douceur et sa force exprimait sa fragilité.
+Dans le couloir, elle entendit alors de la musique, une guitare sèche qui jouait seule dans une pièce voisine. Elle suivit la mélodie. Elle la reconnut : *A Brave New Life*, encore une fois. Puis elle fut surprise d’entendre une voix chanter, une voix d’homme. Elle n’aurait jamais pensé qu’un homme pourrait chanter cette balade. *A priori*, ce timbre viril semblait mal convenir aux pensées d’une jeune mariée. Mais il arrivait à faire de sa gravité une douceur et sa force exprimait sa fragilité.
 
 Arrivée à la porte sans bruit, Sally s’arrêta dans l’encadrement, écoutant sans se faire remarquer. Elle reconnut Armel qui jouait, dos tourné vers elle, sans se douter de sa présence. Tout ce qu’il avait été pour elle jusqu’ici lui disait la solidité d’un homme de quarante ans, compétent, sûr de lui, solidement bâti. Il était le genre d’hommes dont elle avait pu tomber amoureuse, inspirant la confiance par celle qu’ils avaient en eux-mêmes, sans pour autant être dépourvus de délicatesse et d’attentions. Un de ceux dans les bras desquels elle croyait n’avoir rien à craindre. Quelle surprise de le voir trouver un ton si juste pour de telles paroles !
 

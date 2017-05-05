@@ -11,8 +11,9 @@ header, footer a {color:#aaa;}
 header a {color:yellow;text-decoration:none;}
 footer a {display:block;}
 .card-inverse, footer,header {background:rgba(17,17,17,.8);border:solid 1px silver;}
-.card {margin-bottom:1em;border-radius:.75rem;border-color:rgb(251,235,102);-webkit-box-shadow:0px 0px 5px 3px rgba(251,235,102,.8);-moz-box-shadow:0px 0px 5px 3px rgba(251,235,102,.8);box-shadow:0px 0px 5px 3px rgba(251,235,102,.8);}
-.card:hover {-webkit-box-shadow:0px 0px 8px 5px rgba(251,235,102,.95);-moz-box-shadow:0px 0px 8px 5px rgba(251,235,102,.95);box-shadow:0px 0px 8px 5px rgba(251,235,102,.95);}
+.card {margin-bottom:1em;border-radius:.75rem;}
+.card, #pagination img {border-color:rgb(251,235,102);-webkit-box-shadow:0px 0px 5px 3px rgba(251,235,102,.8);-moz-box-shadow:0px 0px 5px 3px rgba(251,235,102,.8);box-shadow:0px 0px 5px 3px rgba(251,235,102,.8);}
+.card:hover, #pagination img:hover {-webkit-box-shadow:0px 0px 8px 5px rgba(251,235,102,.95);-moz-box-shadow:0px 0px 8px 5px rgba(251,235,102,.95);box-shadow:0px 0px 8px 5px rgba(251,235,102,.95);}
 .card a{color:inherit;}
 .card:hover, header:hover, footer:hover {background:#000;}
 .card:hover h2 {color:transparent;transition: .2s color linear;}
@@ -35,3 +36,16 @@ footer {display:flex;flex-direction:column;margin-top:1em;}
 .card.unflex {max-width:40em;margin:auto;}
 .card.unflex img.card-img-top {width:100%;margin:0 1em 1em 0;}
 div.footnotes {margin-top:25vw;}
+#pagination a.push-right {
+float:right;
+}
+#pagination img {filter:none;opacity:1;background:#fff;padding:.5em;}
+#pagination img:hover {filter:invert(100%);background:#fff;}
+#pagination span {display: inline-block;height: 2.7rem;width: 4rem;padding: .5rem;font-size: 120%;font-weight: bold;margin:0 .5em;}
+@media screen and (min-width: 1024px) {
+	#pagination span {display: block;position: fixed;top: 50vh;}
+	#pagination span.firstPage {margin-left:-11.5rem;}
+	#pagination span.previousPage {margin-left:-7.5rem;}
+	#pagination span.nextPage {margin-left:3em;}
+	#pagination span.lastPage {margin-left:6em;	}
+}
