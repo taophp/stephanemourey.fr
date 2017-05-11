@@ -36,12 +36,15 @@ footer {display:flex;flex-direction:column;margin-top:1em;}
 .card.unflex {max-width:40em;margin:auto;}
 .card.unflex img.card-img-top {width:100%;margin:0 1em 1em 0;}
 div.footnotes {margin-top:25vw;}
-#pagination a.push-right {
-float:right;
-}
+#pagination a.push-right {float:right;}
 #pagination img {filter:none;opacity:1;background:#fff;padding:.5em;}
 #pagination img:hover {filter:invert(100%);background:#fff;}
 #pagination span {display: inline-block;height: 2.7rem;width: 4rem;padding: .5rem;font-size: 120%;font-weight: bold;margin:0 .5em;}
+.lead .btn.btn-outline-warning {clear:both;float:right;margin-bottom:1em;}
+.reading-time {float:right;clear:both;}
+.card-block hr{width:0;margin-bottom:3em;}
+.card-block hr::before{content:"*";font-size:200%;color:#292b2c;}
+.card-block:hover hr::before{color:#fff;}
 @media screen and (min-width: 1024px) {
 	#pagination span {display: block;position: fixed;top: 50vh;}
 	#pagination span.firstPage {margin-left:-11.5rem;}

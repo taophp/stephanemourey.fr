@@ -12,6 +12,15 @@ layout: base
 					<div class="card-block">
 						<h2 class="card-title">{{ post.title }}</h2>
 						<p class="card-text">{{ post.description }}</p>
+						<span class="reading-time" title="Temps de lecture estimé">
+							{% assign words = post.content | number_of_words %}
+							{% if words < 360 %}
+								1 min.
+							{% else %}
+								{{ words | divided_by:180 }} min.
+							{% endif %}
+						</span>
+						<p class="lead"><a class="btn btn-outline-warning" href="{{ post.url | relative_url }}" role="button">Lire...</a></p>
 					</div>
 				</a>
 			</div>
