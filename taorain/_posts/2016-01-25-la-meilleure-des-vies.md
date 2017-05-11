@@ -44,7 +44,7 @@ Le public avait aimé, réagissant avec spontanéité, en un écho parfait de ce
 Elle se tourna vers lui.
 
 — Oui, Armel... _Don't wory_... Je viens. Une dernière fois.
-
+<br>
 — Tu nous chanteras _A Brave New Life_ ?
 
 Elle soupira.
@@ -54,9 +54,9 @@ Elle soupira.
 Le sourire d’Armel s’élargit.
 
 — Cela va être formidable. J’ai bien cru que tu n’allais pas le faire.
-
+<br>
 — Laissez-moi encore juste une minute.
-
+<br>
 — Pas de problème.
 
 Il sortit en fermant la porte. Elle l’entendit qui annonçait son retour au public. Elle ferma les yeux, soupira et se leva.

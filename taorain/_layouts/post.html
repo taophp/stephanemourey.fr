@@ -6,7 +6,8 @@ layout: default
 <div id="pagination"></div>
 <script>
 	$(document).ready(function(){
-		nbPages = Math.ceil($('.card-block > p').length);
+		elems = $('.card-block > p').add('.card-block > hr');
+		nbPages = Math.ceil(elems.length);
 		if (nbPages > 10) {
 			$('.jumbotron').prepend($('<span id="1"></span>'));
 			for (i=2;i<=nbPages;i++){
@@ -20,8 +21,8 @@ layout: default
 				onSelect: function (page) {
 					Cookies.set("current-{{ page.url }}", page);
 					location.hash = page;
-					$('.card-block > p').css('display', 'none');
-					$('.card-block > p').slice(this.slice[0],this.slice[1]).css('display', 'block');
+					elems.css('display', 'none');
+					elems.slice(this.slice[0],this.slice[1]).css('display', 'block');
 				},
 				onFormat: function (type) {
 					switch (type) {
@@ -45,3 +46,8 @@ layout: default
 		};
 	});
 </script>
+<style>
+.card-block hr{width:0;margin-bottom:3em;}
+.card-block hr::before{content:"*";font-size:200%;color:#292b2c;}
+.card-block:hover hr::before{color:#fff;}
+</style>
