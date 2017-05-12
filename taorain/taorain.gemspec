@@ -2,13 +2,13 @@
 
 Gem::Specification.new do |spec|
   spec.name          = "taorain"
-  spec.version       = "0.2.2"
+  spec.version       = "0.2.6"
   spec.authors       = ["St\xC3\xA9phane Mourey"]
   spec.email         = ["steph@stephanemourey.fr"]
 
   spec.summary       = %q{The theme to uses for the subdomains of stephanemourey.fr.}
   spec.homepage      = "http://stephanemourey.fr"
-  spec.license       = "AGPLv3"
+  spec.license       = "AGPL-3.0"
 
   spec.files         = `git ls-files -z`.split("\x0").select { |f| f.match(%r{^(assets|_layouts|_includes|_sass|LICENSE|README)}i) }
 
