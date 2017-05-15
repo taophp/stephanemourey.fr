@@ -3,7 +3,6 @@ imgSrc: http://lhindylourhage.deviantart.com/art/Rockin-in-the-Rain-424809304
 layout: post
 title:  "La Meilleure des Vies"
 date: 2016-01-25 00:30:05
-categories: ['nouvelle']
 description: "Assise dans la caravane, Sally se regardait dans le miroir. Seule, elle essayait de ne pas entendre les applaudissements au dehors. Elle leur avait déjà donné trois rappels, et maintenant, elle était fatiguée, elle ne voulait plus y retourner.<br><br>Ce n’est pas vrai, Sally, pensa-t-elle. Tu te mens à toi-même. Tu sais bien que le problème n’est pas là."
 otherFormats:
   pdf: /doc/la-meilleure-des-vies.pdf

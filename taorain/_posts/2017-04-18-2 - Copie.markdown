@@ -1,6 +1,8 @@
 ---
 layout: post
 title:  "Meilleure ?"
+imgAuthor: <a href="http://exemple.com">Author</a>
+imgSrc: http://exemple.com
 date:   2017-04-18 16:43:45 +0200
 img: http://loremflickr.com/538/336/rain?random=11
 imgAlt: A kitten

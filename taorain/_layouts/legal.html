@@ -1,7 +1,10 @@
 ---
 layout: page
 ---
-
+<style>
+	.legalImgTable td,.legalImgTable th {padding:.5em;}
+	.legalImgTable tr:nth-child(even) {background:silver;}
+</style>
 <h3>Auteur</h3>
 <p>Ce site est le fruit du travail d'un particulier, moi, et ne relève d'aucune activité professionnelle. Il est hébergé par mes soins sur une machine principalement destinée à cela. Un tel dispositif me dispense dès lors de communiquer mes propres informations personnelles sur cette page. Mais qui le souhaitera n'aura pas de difficultés à les trouver ailleurs.</p>
 
@@ -21,13 +24,20 @@ layout: page
 <p>Les images utilisées sur ce site sont réputées soit du domaine public, soit diffusées sur Internet par leurs auteurs sous une licence autorisant au moins la réutilisation non commerciale et la modification.</p>
 <p>Toutefois, si une erreur sur ce point était relevée et <a href="http://stephanemourey.fr/contact.html">portée à ma connaissance</a>, je retirerais l'image en question dans les délais les plus brefs.</p>
 <p>L'image de fond a été trouvée sur <a href="https://www.flickr.com/photos/51018933@N08/7141836899">https://www.flickr.com/photos/51018933@N08/7141836899</a>. Il s'agit d'une œuvre de <a href="https://www.flickr.com/photos/51018933@N08/">renee_mcgurk</a> distribuée sous <a href="https://creativecommons.org/licenses/by/2.0/">licence Attribution 2.0 Generic (CC BY 2.0) </a>. Les seules modifications apportées consistent en découpage et redimensionnement.</p>
-
+<p>Pour toutes les images, même si leur licence ne m'y obligeait pas, j'ai tâché d'indiqué la source et l'auteur.</p>
 <h4>Images du sous-domaine</h4>
-
-{{ content }}
-
+<table class="legalImgTable">
+	<tr><th>Page</th><th>Auteur</th><th>Source</th></tr>
+{% for post in site.posts %}
+	{% if post.img %}
+		<tr><td><a href="{{ post.url }}">{{ post.title }}</a></td><td>{% if post.imgAuthor %}{{ post.imgAuthor }}{% endif %}</td><td>{% if post.imgSrc %}<a href="{{ post.imgSrc }}">{{ post.imgSrc }}</a>{% endif %}</td></tr>
+	{% endif %}
+{% endfor %}
+</table>
 <h3>Outils</h3>
 <p>Ce site a été entièrement réalisé à l'aide de logiciels libres, dont suit une liste non-exhaustive :</p>
 <dl>
 	<dt><a href="http://jekyllrb.com/">Jekyll</a></dt><dd>Générateur de sites statiques</dd>
 </dl>
+
+{{ content }}
