@@ -42,9 +42,14 @@ div.footnotes {margin-top:25vw;}
 #pagination span {display: inline-block;height: 2.7rem;width: 4rem;padding: .5rem;font-size: 120%;font-weight: bold;margin:0 .5em;}
 .lead .btn.btn-outline-warning {clear:both;float:right;margin-bottom:1em;}
 .reading-time {float:right;clear:both;}
+.card-column .card-block a {text-decoration:underline;color:blue;}
+.card-column .card-block:hover a {text-decoration:underline;color:lightblue;}
 .card-block hr{width:0;margin-bottom:3em;}
 .card-block hr::before{content:"*";font-size:200%;color:#292b2c;}
 .card-block:hover hr::before{color:#fff;}
+.legalImgTable td,.legalImgTable th {padding:.5em;}
+.legalImgTable tr:nth-child(even) {background:silver;}
+.card-block:hover .legalImgTable tr:nth-child(even) {background:grey;}
 @media screen and (min-width: 1024px) {
 	#pagination span {display: block;position: fixed;top: 50vh;}
 	#pagination span.firstPage {margin-left:-11.5rem;}
