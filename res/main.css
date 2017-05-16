@@ -57,3 +57,8 @@ div.footnotes {margin-top:25vw;}
 	#pagination span.nextPage {margin-left:3em;}
 	#pagination span.lastPage {margin-left:6em;	}
 }
+@media print {
+	body {background:none;display:block;min-height:unset;}
+	header.container,.jumbotron .lead,.card-img-top,#pagination,.footermenu {display:none;}
+	.card-block p {display:block !important;}
+}
