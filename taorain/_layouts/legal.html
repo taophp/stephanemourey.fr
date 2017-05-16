@@ -25,25 +25,25 @@ layout: page
 <h4>Images de la page d'accueil</h4>
 
 <table class="legalImgTable">
-	<tr><th>Auteur</th><th>Source</th></tr>
-		<tr><td><a href="https://www.flickr.com/people/21442511@N08">Daniel Ramirez</a></td><td><a href="https://commons.wikimedia.org/wiki/File:Waiting_out_the_rain_under_a_tree_(5217038792).jpg">Wikipedia</a></td></tr>
-		<tr><td><a href="http://www.publicdomainpictures.net/browse-author.php?a=8245">George Hodan</a></td><td><a href="http://www.publicdomainpictures.net/view-image.php?image=23189">PublicDomainPictures.net</a></td></tr>
-		<tr><td><a href="https://commons.wikimedia.org/wiki/User:Tomascastelazo">Tomascastelazo</a></td><td><a href=" https://commons.wikimedia.org/wiki/File:Bicycle_reflections.jpg ">Wikipedia</a></td></tr>
-		<tr><td><a href="https://www.flickr.com/photos/editor/">Bart Everson</a></td><td><a href="https://www.flickr.com/photos/editor/4623406962">Flickr</a></td></tr>
-		<tr><td><a href="https://skitterphoto.com">Skitterphoto</a></td><td><a href="https://www.pexels.com/photo/nature-rain-drop-of-water-blurred-3782/">Pexels</a></td></tr>
-		<tr><td><a href="https://unsplash.com/@tersh4u">Tertia Van Rensburg</a></td><td><a href="https://unsplash.com/photos/QYs58HmCz-s">Unsplash</a></td></tr>
-		<tr><td><a href="https://www.flickr.com/photos/henk-sijgers/">Henk Sijgers</a></td><td><a href="https://www.flickr.com/photos/henk-sijgers/14959602630">Flicker</a></td></tr>
-		<tr><td><a href="http://www.publicdomainpictures.net/browse-author.php?a=8245">George Hodan</a></td><td><a href="http://www.publicdomainpictures.net/view-image.php?image=65298&picture=marcher-dans-le-brouillard">PublicDomainPictures.net</a></td></tr>
-		<!--tr><td><a href=""></a></td><td><a href=""></a></td></tr-->
+	<tr><th>Image</th><th>Auteur</th><th>Source</th></tr>
+		<tr><td><img src="http://stephanemourey.fr/res/img/Waiting_out_the_rain_under_a_tree.jpg"></td><td><a href="https://www.flickr.com/people/21442511@N08">Daniel Ramirez</a></td><td><a href="https://commons.wikimedia.org/wiki/File:Waiting_out_the_rain_under_a_tree_(5217038792).jpg">Wikipedia</a></td></tr>
+		<tr><td><img src="http://stephanemourey.fr/res/img/green-leaf-in-the-rain.jpg"></td><td><a href="http://www.publicdomainpictures.net/browse-author.php?a=8245">George Hodan</a></td><td><a href="http://www.publicdomainpictures.net/view-image.php?image=23189">PublicDomainPictures.net</a></td></tr>
+		<tr><td><img src="http://stephanemourey.fr/res/img/Bicycle_reflections.jpg"></td><td><a href="https://commons.wikimedia.org/wiki/User:Tomascastelazo">Tomascastelazo</a></td><td><a href=" https://commons.wikimedia.org/wiki/File:Bicycle_reflections.jpg ">Wikipedia</a></td></tr>
+		<tr><td><img src="http://stephanemourey.fr/res/img/4623406962_1728f9c3db_b.jpg"></td><td><a href="https://www.flickr.com/photos/editor/">Bart Everson</a></td><td><a href="https://www.flickr.com/photos/editor/4623406962">Flickr</a></td></tr>
+		<tr><td><img src="http://stephanemourey.fr/res/img/nature-rain-drop-of-water-blurred.jpg"></td><td><a href="https://skitterphoto.com">Skitterphoto</a></td><td><a href="https://www.pexels.com/photo/nature-rain-drop-of-water-blurred-3782/">Pexels</a></td></tr>
+		<tr><td><img src="http://stephanemourey.fr/res/img/pexels-photo-26298.jpg"></td><td><a href="https://unsplash.com/@tersh4u">Tertia Van Rensburg</a></td><td><a href="https://unsplash.com/photos/QYs58HmCz-s">Unsplash</a></td></tr>
+		<tr><td><img src="http://stephanemourey.fr/res/img/14959602630_47ce2dd56e_b.jpg"></td><td><a href="https://www.flickr.com/photos/henk-sijgers/">Henk Sijgers</a></td><td><a href="https://www.flickr.com/photos/henk-sijgers/14959602630">Flicker</a></td></tr>
+		<tr><td><img src="http://stephanemourey.fr/res/img/walk-in-the-fog.jpg"></td><td><a href="http://www.publicdomainpictures.net/browse-author.php?a=8245">George Hodan</a></td><td><a href="http://www.publicdomainpictures.net/view-image.php?image=65298&picture=marcher-dans-le-brouillard">PublicDomainPictures.net</a></td></tr>
+		<!--tr><td><img src="http://stephanemourey.fr/res/img/.jpg"></td><td><a href=""></a></td><td><a href=""></a></td></tr-->
 </table>
 
 
 <h4>Images du sous-domaine</h4>
 <table class="legalImgTable">
-	<tr><th>Page</th><th>Auteur</th><th>Source</th></tr>
+	<tr><th>Image</th><th>Page</th><th>Auteur</th><th>Source</th></tr>
 {% for post in site.posts %}
 	{% if post.img %}
-		<tr><td><a href="{{ post.url }}">{{ post.title }}</a></td><td>{% if post.imgAuthor %}{{ post.imgAuthor }}{% endif %}</td><td>{% if post.imgSrc %}<a href="{{ post.imgSrc }}">{{ post.imgSrc }}</a>{% endif %}</td></tr>
+		<tr><th><img src="{{ post.img }}"></th><td><a href="{{ post.url }}">{{ post.title }}</a></td><td>{% if post.imgAuthor %}{{ post.imgAuthor }}{% endif %}</td><td>{% if post.imgSrc %}<a href="{{ post.imgSrc }}">{{ post.imgSrc }}</a>{% endif %}</td></tr>
 	{% endif %}
 {% endfor %}
 </table>
