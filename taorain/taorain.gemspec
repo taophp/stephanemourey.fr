@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |spec|
   spec.name          = "taorain"
-  spec.version       = "0.2.10"
+  spec.version       = "0.2.11"
   spec.authors       = ["St\xC3\xA9phane Mourey"]
   spec.email         = ["steph@stephanemourey.fr"]
 
