@@ -50,6 +50,11 @@ div.footnotes {margin-top:25vw;}
 .legalImgTable td,.legalImgTable th {padding:.5em;}
 .legalImgTable tr:nth-child(even) {background:silver;}
 .card-block:hover .legalImgTable tr:nth-child(even) {background:grey;}
+.footermenu {display:flex;flex-direction:column;}
+.footermenu div {margin:auto;display:flex;}
+.social img {width:1em;filter:invert(100%);opacity:1;}
+.social img:hover {filter:invert(0%);background-color:yellow;}
+
 @media screen and (min-width: 1024px) {
 	#pagination span {display: block;position: fixed;top: 50vh;}
 	#pagination span.firstPage {margin-left:-11.5rem;}

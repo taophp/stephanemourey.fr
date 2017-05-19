@@ -5,21 +5,21 @@
 	<title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title | strip_html }}</title>
 	<meta name="description" content="{{ site.description | strip_html }}">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<link rel="stylesheet" href="http://stephanemourey.fr/res/bootstrap.min.css">
-	<link rel="stylesheet" href="http://stephanemourey.fr/res/webfonts/droidserif_regular_macroman/stylesheet.css">
-	<link rel="stylesheet" href="http://stephanemourey.fr/res/webfonts/gnutypewriter/stylesheet.css">
-	<script src="http://stephanemourey.fr/res/jquery-3.2.1.min.js"></script>
-	<script src="http://stephanemourey.fr/res/tether.min.js"></script>
-	<script src="http://stephanemourey.fr/res/bootstrap.min.js"></script>
-	<script src="http://stephanemourey.fr/res/jquery.ba-hashchange.js"></script>
-	<script src="http://stephanemourey.fr/res/js.cookie.js"></script>
-	<script src="http://stephanemourey.fr/res/js.cookie.js"></script>
-	<script src="http://stephanemourey.fr/res/jquery.paging.min.js"></script>
-	<script src="http://stephanemourey.fr/res/main.js"></script>
+	<link rel="stylesheet" href="//stephanemourey.fr/res/bootstrap.min.css">
+	<link rel="stylesheet" href="//stephanemourey.fr/res/webfonts/droidserif_regular_macroman/stylesheet.css">
+	<link rel="stylesheet" href="//stephanemourey.fr/res/webfonts/gnutypewriter/stylesheet.css">
+	<script src="//stephanemourey.fr/res/jquery-3.2.1.min.js"></script>
+	<script src="//stephanemourey.fr/res/tether.min.js"></script>
+	<script src="//stephanemourey.fr/res/bootstrap.min.js"></script>
+	<script src="//stephanemourey.fr/res/jquery.ba-hashchange.js"></script>
+	<script src="//stephanemourey.fr/res/js.cookie.js"></script>
+	<script src="//stephanemourey.fr/res/js.cookie.js"></script>
+	<script src="//stephanemourey.fr/res/jquery.paging.min.js"></script>
+	<script src="//stephanemourey.fr/res/main.js"></script>
 	{% if page.layout == 'post' %}
-		<script src="http://stephanemourey.fr/res/paginate.js"></script>
+		<script src="//stephanemourey.fr/res/paginate.js"></script>
 	{% endif %}
-	<link rel="stylesheet" href="http://stephanemourey.fr/res/main.css">
+	<link rel="stylesheet" href="//stephanemourey.fr/res/main.css">
 </head>
 <body>
 <div class="jumbotron jumbotron-fluid">
@@ -27,17 +27,24 @@
 		<h1 class="display-2">{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</h1>
 		<p class="lead">{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}</p>
 	</div>
-		<header class="container"><a href="http://stephanemourey.fr">StephaneMourey<small>.fr</small></a> > <a href="{{ site.url }}">{{ site.title }}</a> {% if page.title %}> {{ page.title }}{% endif %}</header>
+		<header class="container"><a href="//stephanemourey.fr">StephaneMourey<small>.fr</small></a> > <a href="{{ site.url }}">{{ site.title }}</a> {% if page.title %}> {{ page.title }}{% endif %}</header>
 </div>
 
 <div id="container" class="container">
 	{{ content }}
 	<footer>
 		<div class="footermenu">
-		{% for page in site.pages %}
-			{% if page.title %}<a href="{{ page.url }}">{{ page.title }}</a>{% endif %}
-		{% endfor %}
-		<a href="maito:steph@stephanemourey.fr">Contact</a>
+			<div class="links">
+			{% for page in site.pages %}
+				{% if page.title %}<a href="{{ page.url }}">{{ page.title }}</a>{% endif %}
+			{% endfor %}
+			<a href="maito:steph@stephanemourey.fr">Contact</a>
+			</div>
+			<div class="social">
+				<a href="https://www.facebook.com/stephane.mourey.14" title="Retrouvez-moi sur Facebook"><img src="//stephanemourey.fr/res/img/facebook.svg" alt="Facebook logo"></a>
+				<a href="https://twitter.com/ImpossibleExil" title="Suivez-moi sur Twitter"><img src="//stephanemourey.fr/res/img/twitter.svg" alt="Twitter logo"></a>
+				<a href="https://github.com/taophp" title="Mes projets sur GitHub"><img src="//stephanemourey.fr/res/img/github.svg" alt="GitHub logo"></a>
+			</div>
 		</div>
 		<div class="licence">
 			<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Licence Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a>Cette œuvre est mise à disposition selon les termes de la <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Licence Creative Commons Attribution - Pas d’Utilisation Commerciale - Partage dans les Mêmes Conditions 4.0 International</a>.
