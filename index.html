@@ -13,6 +13,12 @@
 	<script src="res/tether.min.js"></script>
 	<script src="res/bootstrap.min.js"></script>
 	<script src="res/main.js"></script>
+	<style>
+		.card-block {display: flex;flex-direction: column;justify-content: space-between;}
+		.card-block .lead {text-align: right;width: 100%;}
+		.lead .btn.btn-outline-warning, p.lead {margin-bottom:0;}
+		.card:hover .lead .btn.btn-outline-warning{-webkit-box-shadow: 0px 0px 8px 5px rgba(251,235,102,.95);-moz-box-shadow: 0px 0px 8px 5px rgba(251,235,102,.95);box-shadow: 0px 0px 8px 5px rgba(251,235,102,.95);}
+	</style>
 </head>
 <body>
 <div class="jumbotron jumbotron-fluid">
@@ -25,94 +31,86 @@
 <div id="container" class="container">
 	<div class="card-deck">
 		<div class="card text-center card-inverse">
-			<a href="//exils-oniriques.stephanemourey.fr" title="Lire">
-				<img class="card-img-top" src="res/img/Waiting_out_the_rain_under_a_tree.jpg" alt="Un escalier sous la pluie">
-				<div class="card-block">
-					<h2 class="card-title">Exils Oniriques</h2>
-					<blockquote class="blockquote blockquote-reverse">
-						<p class="mb-0">Dans un monde unifié, on ne peut pas s'exiler.</p>
-						<footer class="blockquote-footer">Guy Debord,<cite title="Panégyrique, 1">Panégyrique, 1</cite></footer>
-					</blockquote>
-					<p class="card-text">Pourtant, il reste possible de rêver l'exil. Prise dans ce songe, parfois, l'imagination s'envole jusqu'à devenir histoires.</p>
-				</div>
-			</a>
+			<img class="card-img-top" src="res/img/Waiting_out_the_rain_under_a_tree.jpg" alt="Un escalier sous la pluie">
+			<div class="card-block">
+				<h2 class="card-title">Exils Oniriques</h2>
+				<blockquote class="blockquote blockquote-reverse">
+					<p class="mb-0">Dans un monde unifié, on ne peut pas s'exiler.</p>
+					<footer class="blockquote-footer">Guy Debord,<cite title="Panégyrique, 1">Panégyrique, 1</cite></footer>
+				</blockquote>
+				<p class="card-text">Pourtant, il reste possible de rêver l'exil. Prise dans ce songe, parfois, l'imagination s'envole jusqu'à devenir histoires.</p>
+				<p class="lead"><a class="btn btn-outline-warning" href="//exils-oniriques.stephanemourey.fr" role="button">Lire...</a></p>
+			</div>
 		</div>
 		<div class="card text-center card-inverse">
-			<a href="//demangeaisons.stephanemourey.fr" title="Lire">
-				<img class="card-img-top" src="res/img/green-leaf-in-the-rain.jpg" alt="Feuille verte dans la pluie">
-				<div class="card-block">
-					<h2 class="card-title">Démangeaisons</h2>
-					<p class="card-text">Bien souvent, l'indicible vient démanger l'esprit au c&oelig;ur de la nuit. La seule issue est alors de gratter quelques mots désordonnés sur le papier afin de retrouver le sommeil.</p>
-					<p class="card-text">Le lendemain, parfois, cela ressemble à de la poésie.</p>
-				</div>
-			</a>
+			<img class="card-img-top" src="res/img/green-leaf-in-the-rain.jpg" alt="Feuille verte dans la pluie">
+			<div class="card-block">
+				<h2 class="card-title">Démangeaisons</h2>
+				<p class="card-text">Bien souvent, l'indicible vient démanger l'esprit au c&oelig;ur de la nuit. La seule issue est alors de gratter quelques mots désordonnés sur le papier afin de retrouver le sommeil.</p>
+				<p class="card-text">Le lendemain, parfois, cela ressemble à de la poésie.</p>
+				<p class="lead"><a class="btn btn-outline-warning" href="//demangeaisons.stephanemourey.fr" role="button">Lire...</a></p>
+			</div>
 		</div>
 	</div>
 	<div class="card-deck">
 		<div class="card text-center card-inverse">
-			<a href="//reflexions.stephanemourey.fr" title="Lire">
-				<img class="card-img-top" src="res/img/Bicycle_reflections.jpg" width="100%"  alt="Reflet d'un cycliste dans une flaque">
-				<div class="card-block">
-					<h2 class="card-title">Réflexions</h2>
-					<blockquote class="blockquote blockquote-reverse">
-						<p class="mb-0">Les miroirs feraient bien de réfléchir un peu plus avant de renvoyer les images.</p>
-						<footer class="blockquote-footer">Jean Cocteau, <cite title="Orphée">Orphée</cite></footer>
-					</blockquote>
-				</div>
-			</a>
+			<img class="card-img-top" src="res/img/Bicycle_reflections.jpg" width="100%"  alt="Reflet d'un cycliste dans une flaque">
+			<div class="card-block">
+				<h2 class="card-title">Réflexions</h2>
+				<blockquote class="blockquote blockquote-reverse">
+					<p class="mb-0">Les miroirs feraient bien de réfléchir un peu plus avant de renvoyer les images.</p>
+					<footer class="blockquote-footer">Jean Cocteau, <cite title="Orphée">Orphée</cite></footer>
+				</blockquote>
+				<p class="lead"><a class="btn btn-outline-warning" href="//reflexions.stephanemourey.fr" role="button">Lire...</a></p>
+			</div>
 		</div>
 		<div class="card text-center card-inverse">
-			<a href="//jeunesse.stephanemourey.fr">
-				<img class="card-img-top" src="res/img/4623406962_1728f9c3db_b.jpg" alt="Enfants marchant sous la pluie">
-				<div class="card-block">
-					<h2 class="card-title">Jeunesse</h2>
-					<p class="card-text">Mes œuvres à destination des enfants</p>
-				</div>
-			</a>
+			<img class="card-img-top" src="res/img/4623406962_1728f9c3db_b.jpg" alt="Enfants marchant sous la pluie">
+			<div class="card-block">
+				<h2 class="card-title">Jeunesse</h2>
+				<p class="card-text">Mes œuvres à destination des enfants</p>
+				<p class="lead"><a class="btn btn-outline-warning" href="//jeunesse.stephanemourey.fr" role="button">Lire...</a></p>
+			</div>
 		</div>
 		<div class="card text-center card-inverse">
-			<a href="//courts.stephanemourey.fr" title="Lire">
-				<img class="card-img-top" src="res/img/nature-rain-drop-of-water-blurred.jpg" alt="Un brin d'herbe mouillé">
-				<div class="card-block">
-					<h2 class="card-title">Textes Courts</h2>
-					<p class="card-motto">Pas d’esprit nippon<br>Juste la fabrique quotidienne<br>De perles de sens </p>
-					<p class="card-text">Faux haïkus et tweets pour amateurs de littérature miniature.</p>
-				</div>
-			</a>
+			<img class="card-img-top" src="res/img/nature-rain-drop-of-water-blurred.jpg" alt="Un brin d'herbe mouillé">
+			<div class="card-block">
+				<h2 class="card-title">Textes Courts</h2>
+				<p class="card-motto">Pas d’esprit nippon<br>Juste la fabrique quotidienne<br>De perles de sens </p>
+				<p class="card-text">Faux haïkus et tweets pour amateurs de littérature miniature.</p>
+				<p class="lead"><a class="btn btn-outline-warning" href="//courts.stephanemourey.fr" role="button">Lire...</a></p>
+			</div>
 		</div>
 	</div>
 	<div class="card-deck">
 		<div class="card text-center card-inverse">
-			<a href="//ecrire-peut-etre.stephanemourey.fr">
-				<img class="card-img-top" src="res/img/pexels-photo-26298.jpg" alt="Une main sur une vitre">
-				<div class="card-block">
-					<h2 class="card-title"><em>&Eacute;crire, peut-être</em></h2>
-					<p class="card-text">Un écrivain en mal d'inspiration s'offre une machine à écrire datant du début du siècle dernier. Il ne s'attend pas à lui trouver autant de personnalité.</p>
-				</div>
-			</a>
+			<img class="card-img-top" src="res/img/pexels-photo-26298.jpg" alt="Une main sur une vitre">
+			<div class="card-block">
+				<h2 class="card-title"><em>&Eacute;crire, peut-être</em></h2>
+				<p class="card-text">Un écrivain en mal d'inspiration s'offre une machine à écrire datant du début du siècle dernier. Il ne s'attend pas à lui trouver autant de personnalité.</p>
+				<p class="lead"><a class="btn btn-outline-warning" href="//ecrire-peut-etre.stephanemourey.fr" role="button">Lire...</a></p>
+			</div>
 		</div>
 		<div class="card text-center card-inverse">
-			<a href="//enfer.stephanemourey.fr">
-				<img class="card-img-top" src="res/img/14959602630_47ce2dd56e_b.jpg" alt="Rue après la pluie">
-				<div class="card-block">
-					<h2 class="card-title">Mon Enfer</h2>
-					<blockquote class="blockquote blockquote-reverse">
-						<p class="mb-0">Le nom d'<em>Enfer</em>, employé ordinairement, sert en réalité à couvrir une marchandise peu curieuse en soi, le plus souvent idiotement obscène. Il vaut mieux prévenir de suite le public.</p>
-						<footer class="blockquote-footer">Henri Bouchot, <cite title="Le Cabinet des estampes de la Bibliothèque nationale">Le Cabinet des estampes de la Bibliothèque nationale</cite></footer>
-					</blockquote>
-				</div>
-			</a>
+			<img class="card-img-top" src="res/img/14959602630_47ce2dd56e_b.jpg" alt="Rue après la pluie">
+			<div class="card-block">
+				<h2 class="card-title">Mon Enfer</h2>
+				<blockquote class="blockquote blockquote-reverse">
+					<p class="mb-0">Le nom d'<em>Enfer</em>, employé ordinairement, sert en réalité à couvrir une marchandise peu curieuse en soi, le plus souvent idiotement obscène. Il vaut mieux prévenir de suite le public.</p>
+					<footer class="blockquote-footer">Henri Bouchot, <cite title="Le Cabinet des estampes de la Bibliothèque nationale">Le Cabinet des estampes de la Bibliothèque nationale</cite></footer>
+				</blockquote>
+				<p class="lead"><a class="btn btn-outline-warning" href="//enfer.stephanemourey.fr" role="button">Lire...</a></p>
+			</div>
 		</div>
 	</div>
 	<div class="card-deck">
 		<div class="card text-center card-inverse">
-			<a href="//zim.stephanemourey.fr" title="Lire">
-				<img class="card-img-top" src="res/img/walk-in-the-fog.jpg" alt="Un homme dans le brouillard">
-				<div class="card-block">
-					<h2 class="card-title">Mon&nbsp;Zim</h2>
-					<p class="card-text">Zim est un éditeur de Wiki personnel. &Agrave; ce titre, il se révèle idéal pour stocker de manière désordonnée à peu près n'importe quoi, du moment que cela prend la forme d'un texte. Je l'utilise depuis quelques temps, comme un carnet de notes ou un immense brouillon.</p>
-				</div>
-			</a>
+			<img class="card-img-top" src="res/img/walk-in-the-fog.jpg" alt="Un homme dans le brouillard">
+			<div class="card-block">
+				<h2 class="card-title">Mon&nbsp;Zim</h2>
+				<p class="card-text">Zim est un éditeur de Wiki personnel. &Agrave; ce titre, il se révèle idéal pour stocker de manière désordonnée à peu près n'importe quoi, du moment que cela prend la forme d'un texte. Je l'utilise depuis quelques temps, comme un carnet de notes ou un immense brouillon.</p>
+				<p class="lead"><a class="btn btn-outline-warning" href="//zim.stephanemourey.fr" role="button">Lire...</a></p>
+			</div>
 		</div>
 	</div>
 	<footer>
