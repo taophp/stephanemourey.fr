@@ -13,12 +13,6 @@
 	<script src="res/tether.min.js"></script>
 	<script src="res/bootstrap.min.js"></script>
 	<script src="res/main.js"></script>
-	<style>
-		.card-block {display: flex;flex-direction: column;justify-content: space-between;}
-		.card-block .lead {text-align: right;width: 100%;}
-		.lead .btn.btn-outline-warning, p.lead {margin-bottom:0;}
-		.card:hover .lead .btn.btn-outline-warning{-webkit-box-shadow: 0px 0px 8px 5px rgba(251,235,102,.95);-moz-box-shadow: 0px 0px 8px 5px rgba(251,235,102,.95);box-shadow: 0px 0px 8px 5px rgba(251,235,102,.95);}
-	</style>
 </head>
 <body>
 <div class="jumbotron jumbotron-fluid">
@@ -126,6 +120,12 @@
 		</div>
 	</footer>
 </div>
+<script>
+$(document).ready(function() {
+	$('.card').click(function(){location=$(this).find('a').last().attr('href');});
+	$('.card').css('cursor','pointer');
+});
+</script>
 </body>
 </html>
 

@@ -4,25 +4,29 @@ layout: base
 
 <div class="card-columns">
     {% for post in site.posts %}
-			<div class="card text-center card-inverse">
-				<a href="{{ post.url | relative_url }}" title="Lire">
-					{% if post.img %}
-						<img class="card-img-top" src="{{ post.img }}"{% if post.imgalt %} alt="{{ post.imgalt }}"{% endif %}>
+		<div class="card text-center card-inverse">
+			{% if post.img %}
+				<img class="card-img-top" src="{{ post.img }}"{% if post.imgalt %} alt="{{ post.imgalt }}"{% endif %}>
+			{% endif %}
+			<div class="card-block">
+				<h2 class="card-title">{{ post.title }}</h2>
+				<p class="card-text">{{ post.description }}</p>
+				<span class="reading-time" title="Temps de lecture estimé">
+					{% assign words = post.content | number_of_words %}
+					{% if words < 360 %}
+						1 min.
+					{% else %}
+						{{ words | divided_by:180 }} min.
 					{% endif %}
-					<div class="card-block">
-						<h2 class="card-title">{{ post.title }}</h2>
-						<p class="card-text">{{ post.description }}</p>
-						<span class="reading-time" title="Temps de lecture estimé">
-							{% assign words = post.content | number_of_words %}
-							{% if words < 360 %}
-								1 min.
-							{% else %}
-								{{ words | divided_by:180 }} min.
-							{% endif %}
-						</span>
-						<p class="lead"><a class="btn btn-outline-warning" href="{{ post.url | relative_url }}" role="button">Lire...</a></p>
-					</div>
-				</a>
+				</span>
+				<p class="lead"><a class="btn btn-outline-warning" href="{{ post.url | relative_url }}" role="button">Lire...</a></p>
 			</div>
+		</div>
     {% endfor %}
 </div>
+<script>
+$(document).ready(function() {
+	$('.card').click(function(){location=$(this).find('a').last().attr('href');});
+	$('.card').css('cursor','pointer');
+});
+</script>
