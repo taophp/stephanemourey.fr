@@ -62,10 +62,10 @@ div.footnotes {margin-top:25vw;}
 
 @media screen and (min-width: 1024px) {
 	#pagination span {display: block;position: fixed;top: 50vh;}
-	#pagination span.firstPage {margin-left:-11.5rem;}
-	#pagination span.previousPage {margin-left:-7.5rem;}
-	#pagination span.nextPage {margin-left:3em;}
-	#pagination span.lastPage {margin-left:6em;	}
+	#pagination span.firstPage {margin-left:-29.5rem;}
+	#pagination span.previousPage {margin-left:-25.5rem;}
+	#pagination span.nextPage {margin-left:18em;}
+	#pagination span.lastPage {margin-left:21em;	}
 }
 @media print {
 	body {background:none;display:block;min-height:unset;}
