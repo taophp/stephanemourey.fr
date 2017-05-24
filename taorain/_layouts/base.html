@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="fr" xmlns:og="http://ogp.me/ns#">
 <head>
 	<meta charset="utf-8">
-	<title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title | strip_html }}</title>
-	<meta name="description" content="{{ site.description | strip_html }}">
+	<title>{% if page.title %}{{ page.title | strip_html }} | {% endif %}{{ site.title | strip_html }}</title>
+	<meta name="description" content="{% if page.descripton %}{{ page.description | strip_html}}{% else %}{{ site.description | strip_html}}{% endif %}">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<link rel="stylesheet" href="//stephanemourey.fr/res/bootstrap.min.css">
 	<link rel="stylesheet" href="//stephanemourey.fr/res/webfonts/droidserif_regular_macroman/stylesheet.css">
@@ -20,6 +20,17 @@
 		<script src="//stephanemourey.fr/res/paginate.js"></script>
 	{% endif %}
 	<link rel="stylesheet" href="//stephanemourey.fr/res/main.css">
+	<style>
+		.card .social img {filter:none;}
+		.card:hover .social img {filter:invert(100%);}
+	</style>
+	<meta property="og:title" content="{% if page.title %}{{ page.title | strip_html }} | {% endif %}{{ site.title | strip_html }}">
+	{% if page.title %}<meta property="og:site_name" content="{{ site.title | strip_html }}">{% endif %}
+	<meta property="og:type" content="article">
+	<meta property="og:locale" content="fr_FR">
+	<meta property="og:url" content="{{ page.url | absolute_url }}">
+	<meta property="og:description" content="{% if page.descripton %}{{ page.description | strip_html}}{% else %}{{ site.description | strip_html}}{% endif %}">
+	<meta property="og:image" content="{% if page.img %}{{ page.img | absolute_url }} {% else %}http://stephanemourey.fr/res/img/7141836899_10aa089180_b.jpg{% endif %}">
 </head>
 <body>
 <div class="jumbotron jumbotron-fluid">
