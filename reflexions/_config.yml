@@ -1,0 +1,23 @@
+title: Réflexions
+email: steph@stephanemourey.fr
+description: >
+  <blockquote class="blockquote blockquote-reverse">
+    <p class="mb-0">Les miroirs feraient bien de réfléchir davantage avant de renvoyer les images.</p>
+    <footer class="blockquote-footer">Jean Cocteau, <cite title="Orphée">Orphée</cite></footer>
+  </blockquote>
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: ImpossibleExil
+github_username:  taophp
+
+markdown: kramdown
+theme: taorain
+gems:
+  - jekyll-feed
+exclude:
+  - Gemfile
+  - Gemfile.lock
+
+
+timezone: Europe/Paris
+permalink: /:title.html

@@ -1,7 +1,10 @@
-title:
+title: Mon Enfer
 email: steph@stephanemourey.fr
 description: >
-  Desc
+  <blockquote class="blockquote blockquote-reverse">
+    <p class="mb-0">Le nom d'<em>Enfer</em>, employé ordinairement, sert en réalité à couvrir une marchandise peu curieuse en soi, le plus souvent idiotement obscène. Il vaut mieux prévenir de suite le public.</p>
+    <footer class="blockquote-footer">Henri Bouchot, <cite title="Le Cabinet des estampes de la Bibliothèque nationale">Le Cabinet des estampes de la Bibliothèque nationale</cite></footer>
+  </blockquote> 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
