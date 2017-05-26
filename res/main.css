@@ -33,6 +33,7 @@ h1 small {font-weight:inherit;color:grey;}
 footer {display:flex;flex-direction:column;margin-top:1em;}
 .footermenu {display: flex; justify-content: space-around;border-bottom:1px solid rgba(128, 128, 128, 0.3);margin-bottom:.5em;}
 .card-block > * {max-width:33em;margin-left:auto;margin-right:auto;}
+.card-block p {width:100%;}
 .card.unflex {max-width:40em;margin:auto;}
 .card.unflex img.card-img-top {width:100%;margin:0 1em 1em 0;}
 div.footnotes {margin-top:25vw;}
@@ -58,7 +59,8 @@ div.footnotes {margin-top:25vw;}
 .card-block .lead {text-align: right;width: 100%;}
 .lead .btn.btn-outline-warning, p.lead {margin-bottom:0;}
 .card:hover .lead .btn.btn-outline-warning{-webkit-box-shadow: 0px 0px 8px 5px rgba(251,235,102,.95);-moz-box-shadow: 0px 0px 8px 5px rgba(251,235,102,.95);box-shadow: 0px 0px 8px 5px rgba(251,235,102,.95);}
-
+.card-block .social{position:sticky;bottom:0;background:#fff;text-align:center;width:100%;}
+.card:hover .card-block .social{background:#000;}
 
 @media screen and (min-width: 1024px) {
 	#pagination span {display: block;position: fixed;top: 50vh;}
