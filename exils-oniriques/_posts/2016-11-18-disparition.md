@@ -4,8 +4,7 @@ imgSrc: https://pixabay.com/fr/jeune-fille-triste-pleurer-raining-690327/
 layout: post
 date: 2016-11-18 00:30:05
 
-categories: ['nouvelle']
-description: "Lorsqu’elle l’entendit ouvrir la porte d’entrée, elle lui demanda :<br>— Pas de courrier aujourd’hui ?<br>Il leva sur elle un regard dans lequel se mêlait tristesse et résignation.<br>— Non, rien, aujourd’hui non plus.<br>— Pas même une *publicité* ?<br>Sa voix était devenue aiguë et perçante en prononçant ce dernier mot.<br>— Non comme hier, et comme avant hier."
+description: "Lorsqu’elle l’entendit ouvrir la porte d’entrée, elle lui demanda :<br>— Pas de courrier aujourd’hui ?<br>Il leva sur elle un regard dans lequel se mêlait tristesse et résignation.<br>— Non, rien, aujourd’hui non plus.<br>— Pas même une <em>publicité</em> ?"
 otherFormats:
   pdf: /doc/disparition.pdf
   epub: /doc/disparition.epub

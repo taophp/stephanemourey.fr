@@ -1,12 +1,12 @@
 $(document).ready(function(){
-	elems = $('.card-block > p').add('.card-block > hr');
-	nbPages = Math.ceil(elems.length);
-	if (nbPages > 10) {
+	elems = $('.card-block > p').add('.card-block > hr').add('.card-block > blockquote');
+	nbElem = elems.length;
+	if (nbElem > 10) {
 		$('.jumbotron').prepend($('<span id="1"></span>'));
-		for (i=2;i<=nbPages;i++){
+		for (i=2;i<=Math.ceil(nbElem/10);i++){
 			$('.card-block').prepend($('<span id="'+i+'"></span>'));
 		}
-		pager = $('#pagination').paging(nbPages,{
+		pager = $('#pagination').paging(nbElem,{
 			format: '[<]>', // define how the navigation should look like and in which order onFormat() get's called
 			perpage: 10,
 			lapping:  0,
@@ -16,6 +16,14 @@ $(document).ready(function(){
 				location.hash = page;
 				elems.fadeOut();
 				elems.slice(this.slice[0],this.slice[1]).fadeIn("slow");
+				if (page==1){
+					$('.firstPage').hide();
+					$('.previousPage').hide();
+				}
+				if (page==Math.ceil(nbElem/10)) {
+					$('.lastPage').hide();
+					$('.nextPage').hide();
+				}
 			},
 			onFormat: function (type) {
 				switch (type) {
@@ -38,3 +46,5 @@ $(document).ready(function(){
 		}
 	};
 });
+
+

@@ -90,7 +90,7 @@ Hirphide invita Zorastre à passer dans une autre pièce. Il n’avait pas l’h
 
 — Oui, répondit l’autre, c’est le Jeu des Rois...
 
-Ce jeu est également appelé les Échecs Masqués[^1]. Il diffère du jeu d’échecs ordinaire en ce que les figures des pièces, au commencement du jeu, sont cachées à l’adversaire, seul le joueur en ayant une connaissance exacte, leurs positions étant choisies comme il le souhaite sur ses deux lignes de départ. Tant qu’elles sont masquées, les pièces se déplacent exactement comme des pions. Certaines autres règles définissent comment résoudre les situations imprévues par les échecs classiques et donnent au jeu une dimension de bluff rappelant le poker.
+Ce jeu est également appelé les Échecs Masqués. Il diffère du jeu d’échecs ordinaire en ce que les figures des pièces, au commencement du jeu, sont cachées à l’adversaire, seul le joueur en ayant une connaissance exacte, leurs positions étant choisies comme il le souhaite sur ses deux lignes de départ. Tant qu’elles sont masquées, les pièces se déplacent exactement comme des pions. Certaines autres règles définissent comment résoudre les situations imprévues par les échecs classiques et donnent au jeu une dimension de bluff rappelant le poker.
 
 Les deux hommes se regardèrent et se comprirent.
 
@@ -247,7 +247,3 @@ Enfin, Zorastre parvint à la hauteur du démon, leurs visages face à face mais
 Enfin, Zorastre se releva, le visage maculé ayant pris une expression de triomphe. Ses yeux étincelaient et il rayonnait d’une force nouvelle que tous pouvaient sentir. Il parcourut les personnes présentes d’un regard que personne n’osa soutenir, pas même Hirphide. Le malaise était palpable et, malgré le service qu’il venait de rendre au Royaume, personne n’avait le désir de le féliciter ou de le remercier.
 
 Zorastre sourit, dévoilant ses dents grotesques, essuya le sang autour de sa bouche avec sa manche et partit sans un mot. Certains se demandèrent lequel des deux, du mort ou du vivant, était le monstre le pire.
-
-* * * * *
-
-[^1]: L’auteur a créé un protocategories de ce jeu. Vous pourrez en trouver les règles sur ce site : [http://maskedchess.github.io/index-fr.html](http://maskedchess.github.io/index-fr.html)

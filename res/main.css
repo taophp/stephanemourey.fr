@@ -5,6 +5,7 @@ blockquote{margin:0 1em 0 -.5em; text-align:left;font-size: .85rem;}
 h1.display-2 {font-family: 'gnutypewriter','serif';font-size:4.3rem;}
 h2 {font-family: 'gnutypewriter','serif';font-size: 1.7rem;}
 blockquote{font-family: 'DroidSerif', serif;}
+cite{float:right;}
 .quote-src{text-align:right;}
 img {max-width:100%;filter: sepia(100%) saturate(202%) hue-rotate(180deg) blur(2px);opacity: 0.5;}
 header, footer a {color:#aaa;}
@@ -23,6 +24,7 @@ header a:hover, footer a:hover footer a:hover {color:#fff;}
 .card:hover a, footer a{text-decoration:none;color:inherit;}
 .card:hover img {filter: none;opacity: 1;transition: .2s filter linear;}
 .card img {transition: 1s filter linear;}
+.card p img {background:#fff;margin:auto;display:block;}
 .jumbotron {background:transparent;}
 .jumbotron .card, header, footer {border:none;box-shadow:none;-webkit-box-shadow:none;border-radius:0;color:#fff;}
 .jumbotron .card p.lead {text-align:justify;}
