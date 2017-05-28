@@ -13,12 +13,17 @@ $(document).ready(function(){
 			page: location.hash.substr(1) || Cookies.get("current-{{ page.url }}") || 1,
 			onSelect: function (page) {
 				Cookies.set("current-{{ page.url }}", page);
-				location.hash = page;
+				if (page!=1) {
+					location.hash = page;
+				}else{
+					history.pushState("", document.title, window.location.pathname+window.location.search);
+				}
 				elems.fadeOut();
 				elems.slice(this.slice[0],this.slice[1]).fadeIn("slow");
 				if (page==1){
 					$('.firstPage').hide();
 					$('.previousPage').hide();
+					window.scrollTo(0,$('.card').offset().top);
 				}
 				if (page==Math.ceil(nbElem/10)) {
 					$('.lastPage').hide();
