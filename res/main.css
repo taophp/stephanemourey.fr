@@ -10,7 +10,7 @@ cite{float:right;}
 img {max-width:100%;filter: sepia(100%) saturate(202%) hue-rotate(180deg) blur(2px);opacity: 0.5;}
 header, footer a {color:#aaa;}
 header a {color:yellow;text-decoration:none;}
-footer a {display:block;}
+footer a {display:block;margin-left:1em;}
 .card-inverse, footer,header {background:rgba(17,17,17,.8);border:solid 1px silver;}
 .card {margin-bottom:1em;border-radius:.75rem;}
 .card, #pagination img {border-color:rgb(251,235,102);-webkit-box-shadow:0px 0px 5px 3px rgba(251,235,102,.8);-moz-box-shadow:0px 0px 5px 3px rgba(251,235,102,.8);box-shadow:0px 0px 5px 3px rgba(251,235,102,.8);}
