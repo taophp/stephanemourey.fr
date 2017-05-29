@@ -4,7 +4,6 @@ imgSrc: https://unsplash.com/@loulevit?photo=B4op5oZ4x5Q
 imgAuthor: <a href="https://unsplash.com/@loulevit">Lou Levit</a>
 layout: post
 date: 2016-03-06 00:30:05
-categories: ['nouvelle']
 otherFormats:
   pdf: /doc/un-etrange-coup-d-etat.pdf
   epub: /doc/un-etrange-coup-d-etat.epub

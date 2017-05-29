@@ -1,9 +1,9 @@
 ---
 layout: post
-categories: ['demangeaison']
-lang: fr
-
 title: Icare et la Harpie
+img: /img/Rain_ot_ocean_beach.jpg
+imgSrc: https://commons.wikimedia.org/wiki/File:Rain_ot_ocean_beach.jpg
+imgAuthor: <a href="https://sites.google.com/site/thebrockeninglory/">Brocken Inaglory</a>
 date: 2016-06-28 06:00:0 +0100
 description: "
 Au point du jour,

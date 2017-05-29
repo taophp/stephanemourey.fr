@@ -38,7 +38,7 @@ GEM
     rouge (1.11.1)
     safe_yaml (1.0.4)
     sass (3.4.24)
-    taorain (0.2.15)
+    taorain (0.2.18)
       jekyll (~> 3.4)
 
 PLATFORMS
