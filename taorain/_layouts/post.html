@@ -3,4 +3,6 @@ layout: default
 ---
 
 {{ content }}
+{% if site.nopagination or page.nopagination %}{% else %}
 <div id="pagination"></div>
+{% endif %}

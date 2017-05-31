@@ -1,4 +1,5 @@
 ---
+nopagination: true
 imgSrc: http://lhindylourhage.deviantart.com/art/Rockin-in-the-Rain-424809304
 layout: post
 title:  "La Meilleure des Vies"

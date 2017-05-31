@@ -17,7 +17,9 @@
 	<script src="//stephanemourey.fr/res/jquery.paging.min.js"></script>
 	<script src="//stephanemourey.fr/res/main.js"></script>
 	{% if page.layout == 'post' %}
-		<script src="//stephanemourey.fr/res/paginate.js"></script>
+		{% if site.nopagination or page.nopagination %}{% else %}
+			<script src="//stephanemourey.fr/res/paginate.js"></script>
+		{% endif %}
 	{% endif %}
 	<link rel="stylesheet" href="//stephanemourey.fr/res/main.css">
 	<style>
