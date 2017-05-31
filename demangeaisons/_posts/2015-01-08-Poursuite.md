@@ -1,9 +1,9 @@
 ---
 layout: post
-categories: ['demangeaison']
-lang: fr
-
 title: Poursuite
+img: img/21102248058_ff24768e40_b.jpg
+imgSrc: https://www.flickr.com/photos/compose-r/21102248058
+imgAuthor: todo
 date: 2015-01-08 22-16-58
 description: "Laissez-moi entrer! Je suis poursuivi!"
 keywords: mots,avortés,gestation,inachevés,poème,esquisse,écrire,meurtre

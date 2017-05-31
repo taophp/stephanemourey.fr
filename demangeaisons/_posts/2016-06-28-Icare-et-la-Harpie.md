@@ -1,9 +1,9 @@
 ---
 layout: post
 title: Icare et la Harpie
-img: /img/Rain_ot_ocean_beach.jpg
-imgSrc: https://commons.wikimedia.org/wiki/File:Rain_ot_ocean_beach.jpg
-imgAuthor: <a href="https://sites.google.com/site/thebrockeninglory/">Brocken Inaglory</a>
+img: /img/dark-rainy-night.jpg
+imgSrc: http://www.publicdomainpictures.net/view-image.php?image=151324&picture=nuit-pluvieuse-fonce
+imgAuthor: <a href="https://plus.google.com/115662958661898916281">RAJESH misra</a>
 date: 2016-06-28 06:00:0 +0100
 description: "
 Au point du jour,
