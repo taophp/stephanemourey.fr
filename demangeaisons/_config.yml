@@ -17,3 +17,4 @@ exclude:
 
 timezone: Europe/Paris
 permalink: /:title.html
+nopagination: true

@@ -1,9 +1,9 @@
 ---
 layout: post
 title: Frères d'encre
-img: 
-imgSrc: 
-imgAuthor: 
+img: img/Campo_Santo_cemetery_at_Mission_San_Jose_de_Guadalupe,_1904.jpg
+imgSrc: http://digitallibrary.usc.edu/cdm/ref/collection/p15799coll65/id/16477
+imgAuthor: Pierce, C.C. (Charles C.)
 date: 1994-08-01 22-17-31
 description: ""
 ---
