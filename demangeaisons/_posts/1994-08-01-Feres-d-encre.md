@@ -1,0 +1,23 @@
+---
+layout: post
+title: Frères d'encre
+img: 
+imgSrc: 
+imgAuthor: 
+date: 1994-08-01 22-17-31
+description: ""
+---
+Me voilà à nouveau sur ta tombe.<br>
+Tu es mort cet été, ivre de trop de vie.<br>
+L’Ill a recraché ton corps boursoufflé d’adolescence.<br>
+Dix-neuf ans. Jeune, comme tu le voulais.<br>
+Te souviens-tu de l’encre que tu déversais ?<br>
+De ces textes qui étaient des invocations au Démon ?<br>
+Te souviens-tu, Loïc, de ce jour où je t’ai dit que, puisque ton nom<br>
+ne te plaisait point, je le prendrai moi, pour pseudonyme ? Tu as souri<br>
+ce jour-là, me regardant comme un enfant.<br>
+Vois, aujourd’hui, je le fais, pour te rendre hommage, pour que tu<br>
+vives encore un peu à travers moi.<br>
+Mais je ne prends que ton prénom, car tu ne m’as jamais dit que<br>
+tu l’acceptais.<br>
+Vois, mon frère, je prends le nom d’un mort.
