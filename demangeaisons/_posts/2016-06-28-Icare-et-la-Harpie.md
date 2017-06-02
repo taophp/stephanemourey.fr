@@ -5,21 +5,10 @@ img: /img/dark-rainy-night.jpg
 imgSrc: http://www.publicdomainpictures.net/view-image.php?image=151324&picture=nuit-pluvieuse-fonce
 imgAuthor: <a href="https://plus.google.com/115662958661898916281">RAJESH misra</a>
 date: 2016-06-28 06:00:0 +0100
-description: "
-Au point du jour,
-
-
-
-je m'en irai.
-
-
-
-Au bout de l'horizon, tout au bout,
-
-
-
+description: "Au point du jour,<br>
+je m'en irai.<br>
+Au bout de l'horizon, tout au bout,<br>
 je sauterai."
-keywords: "jour,horizon,poésie,ongles,gages,poète,voler,chute,sang"
 ---
 Au point du jour,
 
