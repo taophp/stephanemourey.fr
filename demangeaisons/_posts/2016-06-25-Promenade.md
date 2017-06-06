@@ -5,7 +5,8 @@ img:
 imgSrc: 
 imgAuthor: 
 date: 2016-06-25 06:00:0 +0100
-description: ""
+description: "Je suis l’escargot solitaire<br>
+Qui ergote dans le désert"
 ---
 Je suis l’escargot solitaire<br>
 Qui ergote dans le désert<br>

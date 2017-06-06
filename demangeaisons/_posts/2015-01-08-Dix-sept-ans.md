@@ -5,7 +5,10 @@ img:
 imgSrc: 
 imgAuthor: 
 date: 2015-01-08 22-16-58
-description: ""
+description: "Mes parents sont absents<br>
+oh, pas pour longtemps,<br>
+Et toi tu es là<br>
+Mais pas pour longtemps"
 ---
 Mes parents sont absents<br>
 oh, pas pour longtemps,<br>

@@ -1,11 +1,13 @@
 ---
 layout: post
-title: Et quelques cheveux qui s'écoulent
-img: 
-imgSrc: 
-imgAuthor: 
+title: <em>Et quelques cheveux qui s'écoulent</em>
+img: img/Rain_night_6316551284.jpg
+imgSrc: https://www.flickr.com/photos/milchcow_peng/6316551284/
+imgAuthor: todo
 date: 2015-01-08 22-16-58
-description: ""
+description: "Et quelques cheveux qui s’écoulent.<br>
+Des yeux à y vivre.<br>
+Mon cynisme qui un instant se tait."
 ---
 Et quelques cheveux qui s’écoulent.<br>
 Des yeux à y vivre.<br>

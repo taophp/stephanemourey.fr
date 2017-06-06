@@ -5,7 +5,11 @@ img:
 imgSrc: 
 imgAuthor: 
 date: 2015-01-08 22-16-58
-description: ""
+description: "Malgré l’éclat du Soleil,<br>
+le bercement des vagues,<br>
+le bruit des feuillages,<br>
+la fraîcheur du vent,<br>
+Je ne puis que t’aimer."
 ---
 Malgré l’éclat du Soleil,<br>
 <span style="display:inline-block;width:4em"></span>le bercement des vagues,<br>

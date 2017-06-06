@@ -18,9 +18,9 @@ Au bout de l'horizon, tout au bout,
 
 je sauterai.
 
-Apprendrai-je à voler ?
+Apprendrai-je à voler&nbsp;?
 
---- Non, j'y veillerai !
+---&nbsp;Non, j'y veillerai&nbsp;!
 
 De mes ongles bleus,
 
@@ -28,7 +28,7 @@ je déchirerai tes ailes blanches,
 
 j'ouvrirai tes chairs rouges,
 
-je boirai ton sang !
+je boirai ton sang&nbsp;!
 
 Au point de ta chute,
 
