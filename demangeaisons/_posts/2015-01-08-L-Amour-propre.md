@@ -1,9 +1,9 @@
 ---
 layout: post
 title: L'Amour propre
-img: 
-imgSrc: 
-imgAuthor: 
+img: img/pexels-photo-198024.jpeg
+imgSrc: https://unsplash.com/photos/CBwvOzAV7Ac
+imgAuthor: <a href="http://patrickkylehendry.com">Patrick Hendry</a>
 date: 2015-01-08 22-16-58
 description: "Elle s’avançait vers le levant, nue,<br>
 Amie docile, l’insigne soeur,<br>

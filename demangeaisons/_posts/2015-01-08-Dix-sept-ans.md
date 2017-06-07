@@ -1,9 +1,9 @@
 ---
 layout: post
 title: Dix-sept ans
-img: 
-imgSrc: 
-imgAuthor: 
+img: img/pexels-photo-90501.jpeg
+imgSrc: https://www.pexels.com/photo/black-white-black-and-white-minimal-minimalist-90501/
+imgAuthor: <a href="https://www.pexels.com/u/dorde-drazic-11123/">Dorde Drazic</a>
 date: 2015-01-08 22-16-58
 description: "Mes parents sont absents<br>
 oh, pas pour longtemps,<br>

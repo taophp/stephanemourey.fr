@@ -1,9 +1,9 @@
 ---
 layout: post
 title: Abandon et oubli
-img: 
-imgSrc: 
-imgAuthor: 
+img: img/pexels-photo-189449.jpeg
+imgSrc: https://www.pexels.com/photo/red-human-face-monument-on-green-grass-field-189449/
+imgAuthor: <a href="https://www.pexels.com/u/mikebirdy/">Mike</a>
 date: 2015-01-08 22-16-58
 description: "Pluies nocturnes,<br>
 Arômes lunaires,<br>
