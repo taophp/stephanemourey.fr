@@ -44,7 +44,7 @@ Le public avait aimé, réagissant avec spontanéité, en un écho parfait de ce
 
 Elle se tourna vers lui.
 
-— Oui, Armel... _Don't wory_... Je viens. Une dernière fois.
+— Oui, Armel... _Don't worry_... Je viens. Une dernière fois.
 
 — Tu nous chanteras _A Brave New Life_ ?
 

@@ -2,11 +2,11 @@
 
 Gem::Specification.new do |spec|
   spec.name          = "taorain"
-  spec.version       = "0.2.19"
+  spec.version       = "0.2.20"
   spec.authors       = ["St\xC3\xA9phane Mourey"]
   spec.email         = ["steph@stephanemourey.fr"]
 
-  spec.summary       = %q{The theme to uses for the subdomains of stephanemourey.fr.}
+  spec.summary       = %q{The theme to use for the subdomains of stephanemourey.fr.}
   spec.homepage      = "http://stephanemourey.fr"
   spec.license       = "AGPL-3.0"
 
