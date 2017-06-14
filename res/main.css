@@ -62,6 +62,8 @@ div.footnotes {margin-top:25vw;}
 .lead .btn.btn-outline-warning, p.lead {margin-bottom:0;}
 .card:hover .lead .btn.btn-outline-warning{-webkit-box-shadow: 0px 0px 8px 5px rgba(251,235,102,.95);-moz-box-shadow: 0px 0px 8px 5px rgba(251,235,102,.95);box-shadow: 0px 0px 8px 5px rgba(251,235,102,.95);}
 .card-block .social{position:sticky;bottom:0;background:#fff;text-align:center;width:100%;}
+.card-block > h2 {text-align:left;width:100%;}
+.card-block > h2 {text-align:left;width:100%;}
 .card:hover .card-block .social{background:#000;}
 
 @media screen and (min-width: 1024px) {
