@@ -6,7 +6,7 @@ layout: base
     {% for post in site.posts %}
 		<div class="card text-center card-inverse">
 			{% if post.img %}
-				<img class="card-img-top" src="{{ post.img }}"{% if post.imgalt %} alt="{{ post.imgalt }}"{% endif %}>
+				<img width="538" height="336" class="card-img-top" src="{{ post.img }}"{% if post.imgalt %} alt="{{ post.imgalt }}"{% endif %}>
 			{% endif %}
 			<div class="card-block">
 				<h2 class="card-title">{{ post.title }}</h2>
