@@ -1,5 +1,5 @@
 $(document).ready(function(){
-	elems = $('.card-block > p').add('.card-block > hr').add('.card-block > blockquote').add('.card-block > h2').add('.card-block > h3').add('.card-block > div');
+	elems = $('.card-block > p').add('.card-block > hr').add('.card-block > blockquote').add('.card-block > h3');
 	nbElem = elems.length;
 	if (nbElem > 10) {
 		$('.jumbotron').prepend($('<span id="1"></span>'));

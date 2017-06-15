@@ -7,7 +7,7 @@ imgAuthor: <a href="https://commons.wikimedia.org/wiki/User:J.G.G.">Jules Grandg
 layout: post
 description: "L’écrivain s’assit à sa table de travail et, comme il se doit, écrivit.<br>Tard dans la nuit, deux hommes marchaient côte à côte sur le trottoir. Le plus grand allait la tête haute, l’air fier et content de lui, un sourire aux lèvres. Le second avançait le regard bas, le visage dissimulé par son chapeau. Dans ses yeux brillait une flamme étrange où l’agacement le disputait à la colère."
 ---
-<div style="align:right;"><em>à mon épouse</em></div>
+<p style="text-align:right;"><em>à mon épouse</em></p>
 
 ### 1.
 
