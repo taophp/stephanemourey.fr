@@ -1,18 +1,13 @@
 ---
 layout: post
-categories: ['haiku','court']
-lang: fr
-
 title: Destination
+img: img/640px-Nurburgring_mercedes.jpg
+imgSrc: <a href="http://www.flickr.com/photos/vngrijl/5989056896/">http://www.flickr.com/photos/vngrijl/5989056896/</a>
+imgAuthor: VnGrijl (todo)
 date: 2015-02-27 22:59:45 +0100
-description: "La vie : une ballade
-
-
-Toute course est vaine
-
-
+description: "La vie : une ballade<br>
+Toute course est vaine<br>
 Tous, nous arrivons à point"
-keywords: "vie,balade,course,vanité,arriver,point"
 ---
 La vie : une balade
 
