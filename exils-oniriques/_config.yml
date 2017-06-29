@@ -3,7 +3,7 @@ email: steph@stephanemourey.fr
 description: >
   Si, dans un monde unifié, on ne peut pas s'exiler, il reste possible de rêver l'exil. Prise dans ce songe, parfois, l'imagination s'envole jusqu'à devenir histoires.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "http://exils-oniriques.stephanemourey.fr" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: ImpossibleExil
 github_username:  taophp
 

@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<title>{% if page.title %}{{ page.title | strip_html }} | {% endif %}{{ site.title | strip_html }} | StephaneMourey.fr</title>
-	<meta name="description" content="{% if page.descripton %}{{ page.description | strip_html}}{% else %}{{ site.description | strip_html}}{% endif %}">
+	<meta name="description" content="{% if page.description %}{{ page.description | strip_html}}{% else %}{{ site.description | strip_html}}{% endif %}">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<link rel="stylesheet" href="//stephanemourey.fr/res/bootstrap.min.css">
 	<link rel="stylesheet" href="//stephanemourey.fr/res/webfonts/droidserif_regular_macroman/stylesheet.css">
@@ -31,7 +31,7 @@
 	<meta property="og:type" content="article">
 	<meta property="og:locale" content="fr_FR">
 	<meta property="og:url" content="{{ page.url | absolute_url }}">
-	<meta property="og:description" content="{% if page.descripton %}{{ page.description | strip_html}}{% else %}{{ site.description | strip_html}}{% endif %}">
+	<meta property="og:description" content="{% if page.description %}{{ page.description | strip_html}}{% else %}{{ site.description | strip_html}}{% endif %}">
 	<meta property="og:image" content="{% if page.img %}{{ page.img | absolute_url }} {% else %}http://stephanemourey.fr/res/img/7141836899_10aa089180_b.jpg{% endif %}">
 	<link rel="apple-touch-icon" sizes="57x57" href="//stephanemourey.fr/res/img/favicon/apple-icon-57x57.png">
 	<link rel="apple-touch-icon" sizes="60x60" href="//stephanemourey.fr/res/img/favicon/apple-icon-60x60.png">
