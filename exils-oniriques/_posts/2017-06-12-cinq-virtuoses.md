@@ -7,7 +7,7 @@ imgAuthor: <a href="https://commons.wikimedia.org/wiki/User:J.G.G.">Jules Grandg
 layout: post
 description: "L’écrivain s’assit à sa table de travail et, comme il se doit, écrivit.<br>Tard dans la nuit, deux hommes marchaient côte à côte sur le trottoir. Le plus grand allait la tête haute, l’air fier et content de lui, un sourire aux lèvres. Le second avançait le regard bas, le visage dissimulé par son chapeau. Dans ses yeux brillait une flamme étrange où l’agacement le disputait à la colère."
 ---
-<div style="align:right;"><em>à mon épouse</em></div>
+<p style="text-align:right;"><em>à mon épouse</em></p>
 
 ### 1.
 
@@ -25,13 +25,15 @@ Aussi fut-il surpris de la réponse.
 
 –&nbsp;Oui, cela m’a déplu.
 
+<p></p>
+
 ### 3.
 
 L’élève prit une expression dépitée, teintée d’une timide indignation.
 
 –&nbsp;Comment pouvez-vous dire cela&nbsp;?
 
-–&nbsp;Au commencement, ton interprétation de la Sonate n20 était techniquement impeccable. L’Allegro s’est déroulé sans accroc, même s’il manquait un peu de passion. Puis vint l’Andantino. Tu sais à quel point j’aime ce mouvement. Et là, je peux te le dire, j’ai été émerveillé par la finesse de ton jeu. Un moment, j’ai cru entendre Schubert lui-même. La salle t’as suivi&nbsp;: c’est à ce moment qu’elle a été conquise. Mais tu l’as senti. Tu t’es détourné de ta musique intérieure. Tu as cédé à la vanité et tu es devenu séducteur. Tu as été brillant et virtuose, mais ton expression est devenue mensongère. À mesure que ta musique éclatait, ton orgueil l’emportait. J’étais le seul à le percevoir. Je bouillais de colère et j’avais envie de hurler.
+–&nbsp;Au commencement, ton interprétation de la Sonate n20 était techniquement impeccable. L’Allegro s’est déroulé sans accroc, même s’il manquait un peu de passion. Puis vint l’Andantino. Tu sais à quel point j’aime ce mouvement. Et là, je peux te le dire, j’ai été émerveillé par la finesse de ton jeu. La salle t’a suivi&nbsp;: c’est à ce moment qu’elle a été conquise. Mais tu l’as senti. Tu t’es détourné de ta musique intérieure. Tu as cédé à la vanité et tu es devenu séducteur. Tu as été brillant et virtuose, mais ton expression est devenue mensongère. À mesure que ta musique éclatait, ton orgueil l’emportait. J’étais le seul à le percevoir. Je bouillais de colère et j’avais envie de hurler.
 
 ### 4.
 
@@ -118,7 +120,7 @@ Le jour qui suivit, je fis mon enquête. Je découvris que le banc où j’avais
 
 ### 14.
 
-Mon concert suivant fut nettement moins triomphal, mais je m’en moquais. J’étais en train de vivre une véritable révolution intérieure. Je retournai sur le banc, et attendis jusque tard dans la nuit. Je ne saurais dire à quelle heure, alors que je luttais contre le sommeil, la musique repris. Je fus tout aussi séduit et bouleversé que la veille, mais déçu également&nbsp;: la mélodie que je ne connaissais pas n’a pas été rejouée cette fois-ci. Or, cela t’étonnera peut-être, elle était si étrange à mon oreille que je n’étais pas parvenu à la retenir. Je brûlais de la réentendre. Mais je devais resté déçu, cette nuit-là et toutes celles qui suivirent où je pus me rendre sur ce banc, jusqu’à aujourd’hui. J’espère, sans illusion, que nous pourrons l’entendre ensemble.
+Mon concert suivant fut nettement moins triomphal, mais je m’en moquais. J’étais en train de vivre une véritable révolution intérieure. Je retournai sur le banc, et attendis jusque tard dans la nuit. Je ne saurais dire à quelle heure, alors que je luttais contre le sommeil, la musique reprit. Je fus tout aussi séduit et bouleversé que la veille, mais déçu également&nbsp;: la mélodie que je ne connaissais pas n’a pas été rejouée cette fois-ci. Or, cela t’étonnera peut-être, elle était si étrange à mon oreille que je n’étais pas parvenu à la retenir. Je brûlais de la réentendre. Mais je devais resté déçu, cette nuit-là et les rares qui suivirent où je pus me rendre sur ce banc, jusqu’à aujourd’hui. J’espère, sans illusion, que nous pourrons l’entendre ensemble.
 
 ### 15.
 
@@ -132,7 +134,7 @@ Je m’imaginais un homme pris dans la solitude et la nuit, absolument seul pend
 
 Lui parler alors&nbsp;? Pourquoi&nbsp;? Si j’avais tort, je découvrirais un autre homme, une autre explication qui ne pourrait qu’être moins belle que celle que j’avais imaginée. Peut-être même que la réalité serait telle que la musique en serait gâchée. Et si j’avais raison&nbsp;? Ne serais-je pas confronté à un être mêlant une immense délicatesse à une force certaine&nbsp;? Ne se pourrait-il pas que j’effraye mon pianiste, que je le fasse fuir&nbsp;?
 
-Dans les deux cas, ne risquai-je pas de le faire taire, de faire taire cette musique qui m’avait bouleversé&nbsp;? Cela, je ne le voulais à aucun prix.
+Dans les deux cas, ne risquerai-je pas de le faire taire, de faire taire cette musique qui m’avait bouleversé&nbsp;? Cela, je ne le voulais à aucun prix.
 
 ### 18.
 
@@ -141,6 +143,8 @@ L’écrivain s’interrompit. Il relut ce qu’il venait d’écrire, fit quelq
 Il écarta ses papiers, se laissa aller dans son fauteuil et ferma les yeux. Il ralentit sa respiration, tâchant de faire le vide dans son esprit, ne pensant à rien.
 
 Il fut lui-même surpris lorsque l’idée vint. Il prit une feuille vierge.
+
+<p></p>
 
 ### 19.
 

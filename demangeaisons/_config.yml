@@ -4,7 +4,7 @@ description: >
   Bien souvent, l'indicible vient démanger l'esprit au cœur de la nuit. La seule issue est alors de gratter quelques mots désordonnés sur le papier afin de retrouver le sommeil.
   <br> Le lendemain, parfois, cela ressemble à de la poésie.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "http://demangeaisons.stephanemourey.fr" # the base hostname & protocol for your site, e.g. http://example.com
 
 markdown: kramdown
 theme: taorain
