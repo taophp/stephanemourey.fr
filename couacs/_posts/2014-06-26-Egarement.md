@@ -7,7 +7,6 @@ date: 2014-06-26 16-32-44
 description: "Fin du désarroi ?<br>
 Dans le labyrinthe du néant<br>
 Renait le Tao"
-keywords: désarroi,labyrinthe,néant,renaître,Tao
 ---
 Fin du désarroi ?
 
