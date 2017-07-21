@@ -1,8 +1,9 @@
 ---
 layout: post
 title: Égarement
-img: img/3293872363_7222a0a329_b.jpg
-imgSrc: <a href="http://archival.sl.nsw.gov.au/Details/archive/110015188">State Library of New South Wales</a>
+img: img/417304712_6f4d169713_b.jpg
+imgSrc: https://www.flickr.com/photos/makz/417304712
+imgAuthor: TODO
 date: 2014-06-26 16-32-44
 description: "Fin du désarroi ?<br>
 Dans le labyrinthe du néant<br>
