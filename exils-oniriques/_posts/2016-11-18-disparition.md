@@ -1,6 +1,6 @@
 ---
 img: /img/girl-690327_960_720.jpg
-imgSrc: https://pixabay.com/fr/jeune-fille-triste-pleurer-raining-690327/
+imgSrc: <a href="https://pixabay.com/fr/jeune-fille-triste-pleurer-raining-690327/">Pixabay</a>
 layout: post
 date: 2016-11-18 00:30:05
 

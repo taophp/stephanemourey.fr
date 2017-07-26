@@ -2,8 +2,9 @@
 layout: post
 title:  "Une Impasse"
 date: 2016-02-01 00:30:05
-img: https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Rain_is_flooded_by_sunlight_in_the_Grand_Canyon.JPG/640px-Rain_is_flooded_by_sunlight_in_the_Grand_Canyon.JPG
-imgSrc: https://commons.wikimedia.org/wiki/File:Rain_is_flooded_by_sunlight_in_the_Grand_Canyon.JPG
+img: img/640px-Rain_is_flooded_by_sunlight_in_the_Grand_Canyon.JPG
+imgSrc: <a href="https://commons.wikimedia.org/wiki/File:Rain_is_flooded_by_sunlight_in_the_Grand_Canyon.JPG">Wikipedia</a>
+imgAuthor: <a href="https://commons.wikimedia.org/wiki/User:Michael_G%C3%A4bler">Michael Gäbler</a>
 description: "Les Ancêtres lui avaient refusé leur parole. Telle fut la pensée de Duc lorsque le premier rayon de soleil, frappant ses paupières, le tira de sa torpeur. Il se mit debout au bord de la falaise et contempla le soleil levant. Sans y penser, s’interrogeant sur sa destinée, il regardait la lumière matinale envahir la plaine désertique à ses pieds."
 otherFormats:
   pdf: /doc/une-impasse.pdf

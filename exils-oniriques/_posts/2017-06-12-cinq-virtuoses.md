@@ -2,7 +2,7 @@
 title:  "Cinq virtuoses"
 date: 2017-06-12 14:45:05
 img: img/Street_musician_getting_attention.jpg
-imgSrc: https://commons.wikimedia.org/wiki/File:Street_musician_getting_attention.jpg
+imgSrc: <a href="https://commons.wikimedia.org/wiki/File:Street_musician_getting_attention.jpg">Wikipedia</a>
 imgAuthor: <a href="https://commons.wikimedia.org/wiki/User:J.G.G.">Jules Grandgagnage</a>
 layout: post
 description: "L’écrivain s’assit à sa table de travail et, comme il se doit, écrivit.<br>Tard dans la nuit, deux hommes marchaient côte à côte sur le trottoir. Le plus grand allait la tête haute, l’air fier et content de lui, un sourire aux lèvres. Le second avançait le regard bas, le visage dissimulé par son chapeau. Dans ses yeux brillait une flamme étrange où l’agacement le disputait à la colère."

@@ -1,6 +1,6 @@
 ---
 img: /img/chess-691437_960_720.jpg
-imgSrc: https://unsplash.com/@loulevit?photo=B4op5oZ4x5Q
+imgSrc: <a href="https://unsplash.com/@loulevit?photo=B4op5oZ4x5Q">Unsplash</a>
 imgAuthor: <a href="https://unsplash.com/@loulevit">Lou Levit</a>
 layout: post
 date: 2016-03-06 00:30:05

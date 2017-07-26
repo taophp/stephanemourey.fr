@@ -1,6 +1,7 @@
 ---
 img: /img/rockin__in_the_rain_by_lhindylourhage-d70x4yg.jpg
-imgSrc: http://lhindylourhage.deviantart.com/art/Rockin-in-the-Rain-424809304
+imgSrc: <a href="http://lhindylourhage.deviantart.com/art/Rockin-in-the-Rain-424809304">Deviantart</a>
+imgAuthor: TODO
 layout: post
 title:  "La Meilleure des Vies"
 date: 2016-12-25 00:30:05
