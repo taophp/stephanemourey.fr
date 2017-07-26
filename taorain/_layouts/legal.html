@@ -43,7 +43,7 @@ layout: page
 	<tr><th>Image</th><th>Page</th><th>Auteur</th><th>Source</th></tr>
 {% for post in site.posts %}
 	{% if post.img %}
-		<tr><th><img src="{{ post.img }}"></th><td><a href="{{ post.url }}">{{ post.title }}</a></td><td>{% if post.imgAuthor %}{{ post.imgAuthor }}{% endif %}</td><td>{% if post.imgSrc %}<a href="{{ post.imgSrc }}">{{ post.imgSrc }}</a>{% endif %}</td></tr>
+		<tr><th><img src="{{ post.img }}"></th><td><a href="{{ post.url }}">{{ post.title }}</a></td><td>{% if post.imgAuthor %}{{ post.imgAuthor }}{% endif %}</td><td>{% if post.imgSrc %}{{ post.imgSrc }}{% endif %}</td></tr>
 	{% endif %}
 {% endfor %}
 </table>
