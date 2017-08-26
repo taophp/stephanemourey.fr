@@ -1,0 +1,18 @@
+title: Journal des Rêves
+email: steph@stephanemourey.fr
+description: >
+  Quelques uns de mes rêves, au fur et à mesure qu'ils se produisent ou en rétrospective.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://journal-des-reves.stephanemourey.fr" # the base hostname & protocol for your site, e.g. http://example.com
+
+# Build settings
+markdown: kramdown
+theme: taorain
+gems:
+  - jekyll-feed
+exclude:
+  - Gemfile
+  - Gemfile.lock
+
+timezone: Europe/Paris
+permalink: /:title.html
