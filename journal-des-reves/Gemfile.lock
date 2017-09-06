@@ -32,7 +32,7 @@ GEM
     mercenary (0.3.6)
     pathutil (0.14.0)
       forwardable-extended (~> 2.6)
-    public_suffix (3.0.0)
+    public_suffix (2.0.5)
     rb-fsevent (0.10.2)
     rb-inotify (0.9.10)
       ffi (>= 0.5.0, < 2)
@@ -43,7 +43,7 @@ GEM
     sass-listen (4.0.0)
       rb-fsevent (~> 0.9, >= 0.9.4)
       rb-inotify (~> 0.9, >= 0.9.7)
-    taorain (0.2.27)
+    taorain (0.2.28)
       jekyll (~> 3.4)
     thread_safe (0.3.6)
     tzinfo (1.2.3)
@@ -62,7 +62,7 @@ DEPENDENCIES
   tzinfo-data
 
 RUBY VERSION
-   ruby 2.3.3p222
+   ruby 2.0.0p643
 
 BUNDLED WITH
    1.14.6
