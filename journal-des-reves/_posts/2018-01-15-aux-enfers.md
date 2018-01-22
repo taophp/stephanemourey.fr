@@ -2,6 +2,7 @@
 layout: post
 title: Aux Enfers
 date: 2018-01-15 06-35-00
+imgSrc: https://pxhere.com/en/photo/588013
 ---
 Je suis mort. Je prends le chemin des Enfers. On y pénètre par une large entrée de bunker. Tout de suite sur la gauche, nous suivons -- nous sommes déjà nombreux -- un couloir sombre, en béton, qui aboutit à un guichet.
 
